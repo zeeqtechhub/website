@@ -1,0 +1,24 @@
+.tmp-card .inner .content .title {
+  font-size: 16px;
+}
+
+.tmp-card .inner .content {
+  padding: 15px;
+}
+
+.tmp-badge-2 {
+  font-size: 14px;
+  height: 25px;
+  line-height: 25px;
+}
+.discription ul li {
+  font-size: inherit;
+}
+
+.tmp-address {
+  height: -webkit-fill-available;
+}
+
+.rounded-8px {
+  border-radius: 8px !important;
+}
