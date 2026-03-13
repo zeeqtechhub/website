@@ -2,6 +2,7 @@
     <li class="<?php echo current_menu() ?>"><a href="<?= url() ?>">Home</a></li>
     <li class="<?php echo current_menu("about") ?>"><a href="<?= url("about/") ?>">About</a></li>
     <li class="<?php echo current_menu("services") ?>"><a href="<?= url("services/") ?>">Our Services</a></li>
+    <li class="<?php echo current_menu("academy") ?>"><a href="<?= url("academy/") ?>">Academy</a></li>
     <!-- <li class="has-droupdown has-menu-child-item">
         <a href="services/">Services</a>
         <ul class="submenu">
