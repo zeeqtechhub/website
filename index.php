@@ -1,6 +1,6 @@
 <?php require_once ("important.php") ?>
 <?php $app->setTitle("Home") ?>
-<?php $app->setMetaTags(array('description' => "About Zeeq Tech")); ?>
+<?php $app->setMetaTags(array('description' => "Building intelligent financial and enterprise systems for the modern global economy.")); ?>
 <?php $app->setMetaTags(array('keywords' => "About Zeeq Tech")); ?>
 
 <?php require_once (path("header.php")) ?>
