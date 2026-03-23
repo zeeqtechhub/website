@@ -533,12 +533,16 @@ function slugify($text) {
 }
 
 /**
- * Get active menu of the main menu
+ * Function to check if the current page is the menu page
+ * @param string $page
+ * @param string $cssClass
+ * @return string|null
  */
 function current_menu($page = null, $cssClass = "active") {
-    $url = getFullUrl();
-    $page = (!$page OR $page == "index" OR $page == "home") ? config("basename") : $page;
-    if(str_ends_with($url, $page."/")) return $cssClass;
+    $path = trim(parse_url(getFullUrl(), PHP_URL_PATH), "/");
+    $page = (!$page || $page == "index" || $page == "home") ? "" : $page;
+
+    if($path === $page) return $cssClass;
     return null;
 }
 
