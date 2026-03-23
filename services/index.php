@@ -34,7 +34,7 @@
                                     </span>
                                     <div class="line-separator line-right"></div>
                                 </div>
-                                <h2 class="title w-700 tmp-title-split">Our<span class="theme-gradient">Services</span></h2>
+                                <h2 class="title w-700 tmp-title-split">Our<span class="theme-gradient"> Services</span></h2>
                             </div>
                             <div class="discription">
                                 Our vision extends beyond local deployment we engineer platforms designed for international scalability.

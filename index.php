@@ -451,11 +451,11 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
                             <div class="inner">
                                 <div class="thumbnail">
                                     <figure class="card-image">
-                                        <a href="portfolio-details.html">
+                                        <a href="javascript:;">
                                             <img src="assets/images/portfolio/10.webp" alt="Portfolio-01">
                                         </a>
                                     </figure>
-                                    <a class="tmp-overlay" href="portfolio-details.html"></a>
+                                    <a class="tmp-overlay" href="javascript:;"></a>
                                 </div>
                                 <div class="content">
                                     <h5 class="title mb--20">
@@ -842,16 +842,16 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
                 <div class="tmp-card box-card-style-default card-list-view tmponhover">
                     <div class="inner">
                         <div class="thumbnail invers-anime">
-                            <a class="image" href="blog-details.html">
+                            <a class="image" href="javascript:;">
                                 <img src="assets/images/blog/blog-01.jpg" alt="Blog Image">
                             </a>
                         </div>
                         <div class="content">
-                            <h4 class="title"><a href="blog-details.html">How to Analyze Your Best
+                            <h4 class="title"><a href="javascript:;">How to Analyze Your Best
                                     Pages for SEO Performance</a></h4>
                             <p class="descriptiion">It is a long established fact that a reader.</p>
                             <div class="read-more-btn">
-                                <a class="btn-read-more" href="blog-details.html"><span>Read More</span></a>
+                                <a class="btn-read-more" href="javascript:;"><span>Read More</span></a>
                             </div>
                         </div>
                     </div>
@@ -861,15 +861,15 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
                 <div class="tmp-card box-card-style-default card-list-view tmponhover">
                     <div class="inner">
                         <div class="thumbnail invers-anime">
-                            <a class="image" href="blog-details.html"><img src="assets/images/blog/blog-02.jpg" alt="Blog Image">
+                            <a class="image" href="javascript:;"><img src="assets/images/blog/blog-02.jpg" alt="Blog Image">
                             </a>
                         </div>
                         <div class="content">
-                            <h4 class="title"><a href="blog-details.html">Corporate Success: How to
+                            <h4 class="title"><a href="javascript:;">Corporate Success: How to
                                     Achieve Your Goals</a></h4>
                             <p class="descriptiion">Corporate Success established fact that.</p>
                             <div class="read-more-btn">
-                                <a class="btn-read-more" href="blog-details.html"><span>Read More</span></a>
+                                <a class="btn-read-more" href="javascript:;"><span>Read More</span></a>
                             </div>
                         </div>
                     </div>
@@ -878,13 +878,13 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
             <div class="col-lg-6">
                 <div class="tmp-card box-card-style-default card-list-view tmponhover">
                     <div class="inner">
-                        <div class="thumbnail invers-anime"><a class="image" href="blog-details.html"><img src="assets/images/blog/blog-03.jpg" alt="Blog Image"></a></div>
+                        <div class="thumbnail invers-anime"><a class="image" href="javascript:;"><img src="assets/images/blog/blog-03.jpg" alt="Blog Image"></a></div>
                         <div class="content">
-                            <h4 class="title"><a href="blog-details.html">Corporate Leadership: How
+                            <h4 class="title"><a href="javascript:;">Corporate Leadership: How
                                     to Lead with Confidence</a></h4>
                             <p class="descriptiion">Leadership established fact that a reader.</p>
                             <div class="read-more-btn">
-                                <a class="btn-read-more" href="blog-details.html"><span>Read More</span></a>
+                                <a class="btn-read-more" href="javascript:;"><span>Read More</span></a>
                             </div>
                         </div>
                     </div>
@@ -893,14 +893,14 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
             <div class="col-lg-6">
                 <div class="tmp-card box-card-style-default card-list-view tmponhover">
                     <div class="inner">
-                        <div class="thumbnail invers-anime"><a class="image" href="blog-details.html"><img src="assets/images/blog/blog-04.jpg" alt="Blog Image"></a></div>
+                        <div class="thumbnail invers-anime"><a class="image" href="javascript:;"><img src="assets/images/blog/blog-04.jpg" alt="Blog Image"></a></div>
                         <div class="content">
-                            <h4 class="title"><a href="blog-details.html">Navigating the Corporate
+                            <h4 class="title"><a href="javascript:;">Navigating the Corporate
                                     Landscape: A Guide</a></h4>
                             <p class="descriptiion">Navigating long established fact that a reader.
                             </p>
                             <div class="read-more-btn">
-                                <a class="btn-read-more" href="blog-details.html"><span>Read More</span></a>
+                                <a class="btn-read-more" href="javascript:;"><span>Read More</span></a>
                             </div>
                         </div>
                     </div>
