@@ -1,6 +1,6 @@
 <?php require_once ("important.php") ?>
 <?php $app->setTitle("Home") ?>
-<?php $app->setMetaTags(array('description' => "About Zeeq Tech")); ?>
+<?php $app->setMetaTags(array('description' => "Building intelligent financial and enterprise systems for the modern global economy.")); ?>
 <?php $app->setMetaTags(array('keywords' => "About Zeeq Tech")); ?>
 
 <?php require_once (path("header.php")) ?>
@@ -11,13 +11,13 @@
         <div class="slider-area slider-style-2 d-flex variation-2 height-850 bg_image bg_image--10">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-10 col-xl-10">
+                    <div class="col-lg-7 col-xl-7">
                         <div class="inner text-left">
-                            <h6 class="tag-title">Our Strategic Differentiators</h6>
-                            <h1 class="title display-one">We build <br /> <span>foundational systems,</span> not surface-level apps.</h1>
+                            <!-- <h6 class="tag-title">Our Strategic Differentiators</h6>
+                            <h1 class="title display-one">We build <br /> <span>foundational systems,</span> not surface-level apps.</h1> -->
                             <p class="mb--40 b1">We are technology engineering company building intelligent financial and enterprise systems for the modern global economy.</p>
                             <div class="read-more-btn">
-                                <a class="tmp-btn btn-large round hover-icon-reverse" href="services/">
+                                <a class="tmp-btn btn-small round hover-icon-reverse" href="services/">
                                     <span class="icon-reverse-wrapper">
                                     <span class="btn-text">Check our services</span>
                                     <span class="btn-icon"><i class="feather-arrow-right"></i></span>
@@ -35,13 +35,13 @@
         <div class="slider-area slider-style-2 d-flex variation-2 height-850 bg_image bg_image--13">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-10 col-xl-10">
+                    <div class="col-lg-7 col-xl-7">
                         <div class="inner text-left">
-                            <h6 class="tag-title">Our Strategic Differentiators</h6>
-                            <h1 class="title display-one">We design <br /> <span> platforms</span> that grow with users and enterprises</h1>
-                            <p class="mb--40 b1">We are technology engineering company building intelligent financial and enterprise systems for the modern global economy.</p>
+                            <!-- <h6 class="tag-title">Our Strategic Differentiators</h6>
+                            <h1 class="title display-one">We design <br /> <span> platforms</span> that grow with users and enterprises</h1> -->
+                            <p class="mb--40 b1">We are not just a technology provider we are architects of systems that redefine how businesses operate, transact, and scale.</p>
                             <div class="read-more-btn">
-                                <a class="tmp-btn btn-large round hover-icon-reverse" href="services/">
+                                <a class="tmp-btn btn-small round hover-icon-reverse" href="services/">
                                     <span class="icon-reverse-wrapper">
                                         <span class="btn-text">Check our services</span>
                                     <span class="btn-icon"><i class="feather-arrow-right"></i></span>
@@ -59,13 +59,13 @@
         <div class="slider-area slider-style-2 d-flex variation-2 height-850 bg_image bg_image--19">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-10 col-xl-10">
+                    <div class="col-lg-7 col-xl-7">
                         <div class="inner text-left">
-                            <h6 class="tag-title">ZEEQ ACADEMY</h6>
-                            <h1 class="title display-one">ZeeqTech Academy is a technology-driven education firm</span></h1>
-                            <p class="mb--40 b1">We are training technology expert & intelligent enterpreneurs for the modern global economy.</p>
+                            <!-- <h6 class="tag-title">Our Strategic Differentiators</h6>
+                            <h1 class="title display-one">Technical excellence drives our <br /> <span>product decisions.</span></h1> -->
+                            <p class="mb--40 b1">We are focused on building innovative software systems, fintech infrastructure, and intelligent business solutions for modern enterprises.</p>
                             <div class="read-more-btn">
-                                <a class="tmp-btn btn-large round hover-icon-reverse" href="services/">
+                                <a class="tmp-btn btn-small round hover-icon-reverse" href="services/">
                                     <span class="icon-reverse-wrapper">
                                         <span class="btn-text">Check our services</span>
                                     <span class="btn-icon"><i class="feather-arrow-right"></i></span>
@@ -810,16 +810,16 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
                 <div class="tmp-card box-card-style-default card-list-view tmponhover">
                     <div class="inner">
                         <div class="thumbnail invers-anime">
-                            <a class="image" href="blog-details.html">
+                            <a class="image" href="javascript:;">
                                 <img src="assets/images/blog/blog-01.jpg" alt="Blog Image">
                             </a>
                         </div>
                         <div class="content">
-                            <h4 class="title"><a href="blog-details.html">How to Analyze Your Best
+                            <h4 class="title"><a href="javascript:;">How to Analyze Your Best
                                     Pages for SEO Performance</a></h4>
                             <p class="descriptiion">It is a long established fact that a reader.</p>
                             <div class="read-more-btn">
-                                <a class="btn-read-more" href="blog-details.html"><span>Read More</span></a>
+                                <a class="btn-read-more" href="javascript:;"><span>Read More</span></a>
                             </div>
                         </div>
                     </div>
@@ -829,15 +829,15 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
                 <div class="tmp-card box-card-style-default card-list-view tmponhover">
                     <div class="inner">
                         <div class="thumbnail invers-anime">
-                            <a class="image" href="blog-details.html"><img src="assets/images/blog/blog-02.jpg" alt="Blog Image">
+                            <a class="image" href="javascript:;"><img src="assets/images/blog/blog-02.jpg" alt="Blog Image">
                             </a>
                         </div>
                         <div class="content">
-                            <h4 class="title"><a href="blog-details.html">Corporate Success: How to
+                            <h4 class="title"><a href="javascript:;">Corporate Success: How to
                                     Achieve Your Goals</a></h4>
                             <p class="descriptiion">Corporate Success established fact that.</p>
                             <div class="read-more-btn">
-                                <a class="btn-read-more" href="blog-details.html"><span>Read More</span></a>
+                                <a class="btn-read-more" href="javascript:;"><span>Read More</span></a>
                             </div>
                         </div>
                     </div>
@@ -846,13 +846,13 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
             <div class="col-lg-6">
                 <div class="tmp-card box-card-style-default card-list-view tmponhover">
                     <div class="inner">
-                        <div class="thumbnail invers-anime"><a class="image" href="blog-details.html"><img src="assets/images/blog/blog-03.jpg" alt="Blog Image"></a></div>
+                        <div class="thumbnail invers-anime"><a class="image" href="javascript:;"><img src="assets/images/blog/blog-03.jpg" alt="Blog Image"></a></div>
                         <div class="content">
-                            <h4 class="title"><a href="blog-details.html">Corporate Leadership: How
+                            <h4 class="title"><a href="javascript:;">Corporate Leadership: How
                                     to Lead with Confidence</a></h4>
                             <p class="descriptiion">Leadership established fact that a reader.</p>
                             <div class="read-more-btn">
-                                <a class="btn-read-more" href="blog-details.html"><span>Read More</span></a>
+                                <a class="btn-read-more" href="javascript:;"><span>Read More</span></a>
                             </div>
                         </div>
                     </div>
@@ -861,14 +861,14 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
             <div class="col-lg-6">
                 <div class="tmp-card box-card-style-default card-list-view tmponhover">
                     <div class="inner">
-                        <div class="thumbnail invers-anime"><a class="image" href="blog-details.html"><img src="assets/images/blog/blog-04.jpg" alt="Blog Image"></a></div>
+                        <div class="thumbnail invers-anime"><a class="image" href="javascript:;"><img src="assets/images/blog/blog-04.jpg" alt="Blog Image"></a></div>
                         <div class="content">
-                            <h4 class="title"><a href="blog-details.html">Navigating the Corporate
+                            <h4 class="title"><a href="javascript:;">Navigating the Corporate
                                     Landscape: A Guide</a></h4>
                             <p class="descriptiion">Navigating long established fact that a reader.
                             </p>
                             <div class="read-more-btn">
-                                <a class="btn-read-more" href="blog-details.html"><span>Read More</span></a>
+                                <a class="btn-read-more" href="javascript:;"><span>Read More</span></a>
                             </div>
                         </div>
                     </div>
