@@ -14085,12 +14085,12 @@ img.mfp-img {
 }
 .feature-list-service li .icon {
   background: var(--color-primary);
-  width: 53px;
+  width: 30px!important;
   height: 53px;
   border-radius: 4px;
   color: var(--color-white);
   text-align: center;
-  min-width: 30px;
+  /* min-width: 30px; */
 }
 .feature-list-service li .icon i {
   display: flex;

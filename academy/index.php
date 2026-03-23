@@ -27,13 +27,6 @@
                     <div class="col-lg-7 pl--60 pl_md--10 pl_sm--10 mt_md--30 mt_sm--30">
                         <div class="about-wrapper-8">
                             <div class="tmp-section-title-border text-start">
-                                <div class="pres-line-separator-wrapper text-start mb--10">
-                                    <span class="subtitle">
-                            <span class="number">03</span>
-                                    <span class="subtitle-text">Academy</span>
-                                    </span>
-                                    <div class="line-separator line-right"></div>
-                                </div>
                                 <h2 class="title w-700 tmp-title-split">Zeeq<span class="theme-gradient"> Academy</span></h2>
                             </div>
                             <div class="discription">
@@ -63,7 +56,7 @@
                                         <i class="feather-check"></i>
                                     </div>
                                     <div class="title-wrapper">
-                                        <h4 class="title">Coding & STEM programs</h4>
+                                        <h4 class="title">Coding & AI programs</h4>
                                         <!-- <p class="text"></p> -->
                                     </div>
                                 </li>
@@ -91,7 +84,8 @@
                             </div> -->
                         </div>
                     </div>
-                    <div class="col-lg-12">
+                    <div class="row mt-5">
+                    <div class="col-lg-6">
                         <div class="discription mb--10 mt--20"> 
                             <h5 class="m-1">Our Vision:</h5> 
                             <div>To become Africa’s leading technology and digital transformation academy empowering the next generation of innovators and problem solvers.</div>
@@ -133,7 +127,7 @@
                             </div>
                         </div>
                         <div class="discription mb--5 mt--10"> 
-                            <b>Target Market:</b>
+                            <b>Our Customers:</b>
                             <ul>
                                 <li>Secondary schools (private & public)</li>
                                 <li>Government Agency & Parastatals </li>
@@ -141,13 +135,15 @@
                                 <li>Private Establishment</li>
                             </ul>
                         </div>
+                        </div>
+                        <div class="col-lg-6">
                         <div class="discription mb--5 mt--10"> 
-                            <b>Business Model:</b>
+                            <b>Our Approach:</b>
                             <ul>
-                                <li>School partnership programs (per term contracts)</li>
+                                <li>School partnership programs</li>
                                 <li>Student coding boot camps (weekend/holiday programs)</li>
                                 <li>Corporate digital training</li>
-                                <li>ICT curriculum development services</li>
+                                <li>ICT curriculum deployment services</li>
                                 <li>EdTech implementation consulting</li>
                                 <li>Online courses subscription</li>
                                 <li>Certification programs</li>
@@ -155,26 +151,26 @@
                         </div>
 
                         <div class="discription mb--5 mt--10"> 
-                            <b>Marketing Strategies:</b>
+                            <b>Our Outreach:</b>
                             <ul>
-                                <li>Lunch Boot Camps during Holidays and Weekends</li>
-                                <li>Organize Competition (Coding) & Demo on National Television</li>
-                                <li>Social Media Campaign (Instagram, You-tube, Facebook, Twitter Ads)</li>
-                                <li>Create ZeeqTech Student Clubs in Schools</li>
-                                <li>Collaboration with LGA, State & Federal Government</li>
+                                <li>Boot Camps during Holidays and Weekends</li>
+                                <li>Coding Competition & National Television Show</li>
+                                <li>ZeeqTech Student Clubs in Schools</li>
+                                <li>Partnership with LGA, State & Federal Government</li>
                             </ul>
                         </div>
 
                         <div class="discription mb--5 mt--10"> 
-                            <b>1st year VISION or PLAN:</b>
+                            <b>Vision and Plan:</b>
                             <ul>
-                                <li>PARTNER WITH 100 SCHOOLS IN THE 1ST YEAR</li>
-                                <li>TRAINED STUDENTS 6,000 STUDENTS IN THE 1ST YEAR</li>
-                                <li>ONLINE PAN-AFRICAN PLATFORM</li>
-                                <li>RECOGNIZED TECH CERTIFICATION BRAND</li>
-                                <li>STRATEGIC PARTNERSHIP WITH GLOBAL TECH COMPANIES</li>
+                                <li>Train 6000+ students</li>
+                                <li>Online Pan-African Platform</li>
+                                <li>Recognized tech certification brand</li>
+                                <li>Strategic partnership with global tech company</li>
                             </ul>
                         </div>
+                        </div>
+                    </div>
                     </div>
                 </div>
             </div>
