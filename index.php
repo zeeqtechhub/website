@@ -9,15 +9,15 @@
     <!-- Start Slider Area  -->
     <div class="slider-animation-2 slider-activation-2 slider-dot tmp-slick-dot tmp-slick-arrow tmp-slick-arrow-white">
         <div class="slider-area slider-style-2 d-flex variation-2 height-850 bg_image bg_image--10">
-            <!-- <div class="container">
+            <div class="container">
                 <div class="row">
-                    <div class="col-lg-10 col-xl-10">
+                    <div class="col-lg-7 col-xl-7">
                         <div class="inner text-left">
-                            <h6 class="tag-title">Our Strategic Differentiators</h6>
-                            <h1 class="title display-one">We build <br /> <span>foundational systems,</span> not surface-level apps.</h1>
+                            <!-- <h6 class="tag-title">Our Strategic Differentiators</h6>
+                            <h1 class="title display-one">We build <br /> <span>foundational systems,</span> not surface-level apps.</h1> -->
                             <p class="mb--40 b1">We are technology engineering company building intelligent financial and enterprise systems for the modern global economy.</p>
                             <div class="read-more-btn">
-                                <a class="tmp-btn btn-large round hover-icon-reverse" href="services/">
+                                <a class="tmp-btn btn-small round hover-icon-reverse" href="services/">
                                     <span class="icon-reverse-wrapper">
                                     <span class="btn-text">Check our services</span>
                                     <span class="btn-icon"><i class="feather-arrow-right"></i></span>
@@ -28,20 +28,20 @@
                         </div>
                     </div>
                 </div>
-            </div> -->
-            <!-- <div class="grid-mask"></div> -->
+            </div>
+            <div class="grid-mask"></div>
         </div>
 
         <div class="slider-area slider-style-2 d-flex variation-2 height-850 bg_image bg_image--13">
-            <!-- <div class="container">
+            <div class="container">
                 <div class="row">
-                    <div class="col-lg-10 col-xl-10">
+                    <div class="col-lg-7 col-xl-7">
                         <div class="inner text-left">
-                            <h6 class="tag-title">Our Strategic Differentiators</h6>
-                            <h1 class="title display-one">We design <br /> <span> platforms</span> that grow with users and enterprises</h1>
-                            <p class="mb--40 b1">We are technology engineering company building intelligent financial and enterprise systems for the modern global economy.</p>
+                            <!-- <h6 class="tag-title">Our Strategic Differentiators</h6>
+                            <h1 class="title display-one">We design <br /> <span> platforms</span> that grow with users and enterprises</h1> -->
+                            <p class="mb--40 b1">We are not just a technology provider we are architects of systems that redefine how businesses operate, transact, and scale.</p>
                             <div class="read-more-btn">
-                                <a class="tmp-btn btn-large round hover-icon-reverse" href="services/">
+                                <a class="tmp-btn btn-small round hover-icon-reverse" href="services/">
                                     <span class="icon-reverse-wrapper">
                                         <span class="btn-text">Check our services</span>
                                     <span class="btn-icon"><i class="feather-arrow-right"></i></span>
@@ -53,19 +53,19 @@
                     </div>
                 </div>
             </div>
-            <div class="grid-mask"></div> -->
+            <div class="grid-mask"></div>
         </div>
 
         <div class="slider-area slider-style-2 d-flex variation-2 height-850 bg_image bg_image--19">
-            <!-- <div class="container">
+            <div class="container">
                 <div class="row">
-                    <div class="col-lg-10 col-xl-10">
+                    <div class="col-lg-7 col-xl-7">
                         <div class="inner text-left">
-                            <h6 class="tag-title">Our Strategic Differentiators</h6>
-                            <h1 class="title display-one">Technical excellence drives our <br /> <span>product decisions.</span></h1>
-                            <p class="mb--40 b1">We are technology engineering company building intelligent financial and enterprise systems for the modern global economy.</p>
+                            <!-- <h6 class="tag-title">Our Strategic Differentiators</h6>
+                            <h1 class="title display-one">Technical excellence drives our <br /> <span>product decisions.</span></h1> -->
+                            <p class="mb--40 b1">We are focused on building innovative software systems, fintech infrastructure, and intelligent business solutions for modern enterprises.</p>
                             <div class="read-more-btn">
-                                <a class="tmp-btn btn-large round hover-icon-reverse" href="services/">
+                                <a class="tmp-btn btn-small round hover-icon-reverse" href="services/">
                                     <span class="icon-reverse-wrapper">
                                         <span class="btn-text">Check our services</span>
                                     <span class="btn-icon"><i class="feather-arrow-right"></i></span>
@@ -77,7 +77,7 @@
                     </div>
                 </div>
             </div>
-            <div class="grid-mask"></div> -->
+            <div class="grid-mask"></div>
         </div>
     </div>
     <!-- End Slider Area  -->

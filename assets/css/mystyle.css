@@ -6,6 +6,12 @@
   padding: 15px;
 }
 
+.slider-area .inner {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  border-radius: 15px;
+}
+
 .tmp-badge-2 {
   font-size: 14px;
   height: 25px;
@@ -21,4 +27,8 @@
 
 .rounded-8px {
   border-radius: 8px !important;
+}
+
+.slider-style-2.variation-2 .inner p {
+  padding-right: 0;
 }
