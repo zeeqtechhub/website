@@ -9,7 +9,7 @@
     <!-- Start Slider Area  -->
     <div class="slider-animation-2 slider-activation-2 slider-dot tmp-slick-dot tmp-slick-arrow tmp-slick-arrow-white">
         <div class="slider-area slider-style-2 d-flex variation-2 height-850 bg_image bg_image--10">
-            <div class="container">
+            <!-- <div class="container">
                 <div class="row">
                     <div class="col-lg-10 col-xl-10">
                         <div class="inner text-left">
@@ -28,12 +28,12 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="grid-mask"></div>
+            </div> -->
+            <!-- <div class="grid-mask"></div> -->
         </div>
 
         <div class="slider-area slider-style-2 d-flex variation-2 height-850 bg_image bg_image--13">
-            <div class="container">
+            <!-- <div class="container">
                 <div class="row">
                     <div class="col-lg-10 col-xl-10">
                         <div class="inner text-left">
@@ -53,11 +53,11 @@
                     </div>
                 </div>
             </div>
-            <div class="grid-mask"></div>
+            <div class="grid-mask"></div> -->
         </div>
 
         <div class="slider-area slider-style-2 d-flex variation-2 height-850 bg_image bg_image--19">
-            <div class="container">
+            <!-- <div class="container">
                 <div class="row">
                     <div class="col-lg-10 col-xl-10">
                         <div class="inner text-left">
@@ -77,7 +77,7 @@
                     </div>
                 </div>
             </div>
-            <div class="grid-mask"></div>
+            <div class="grid-mask"></div> -->
         </div>
     </div>
     <!-- End Slider Area  -->
