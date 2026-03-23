@@ -3,7 +3,7 @@
 define("DEV_PATH", substr_count(($_SERVER['SCRIPT_NAME'] ?? $_SERVER['PHP_SELF']), "ecommerce") > 0 ? '/ecommerce/' : ((substr_count(($_SERVER['HTTP_HOST'] ?? $_SERVER['SERVER_NAME']), "localhost") || substr_count(($_SERVER['HTTP_HOST'] ?? $_SERVER['SERVER_NAME']), "192.168.")) ? '/ecommerce/' : "/"));
 
 /**
- * This File contains necessary class definitions e.t.c
+ * This File contains necessary class definitions e.t.c.
  */
 class App {
     private static $instance;
