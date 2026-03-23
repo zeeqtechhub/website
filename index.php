@@ -53,7 +53,7 @@
                     </div>
                 </div>
             </div>
-            <div class="grid-mask"></div>
+            <!-- <div class="grid-mask"></div> -->
         </div>
 
         <div class="slider-area slider-style-2 d-flex variation-2 height-850 bg_image bg_image--19">
