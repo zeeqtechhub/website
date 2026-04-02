@@ -1,6 +1,6 @@
 <?php require_once ("../important.php") ?>
 <?php $app->setTitle("About Us") ?>
-<?php $app->setMetaTags(array('description' => "About Zeeq Tech")); ?>
+<?php $app->setMetaTags(array('description' => "Technology engineering company building intelligent financial and enterprise systems for the modern global economy.")); ?>
 <?php $app->setMetaTags(array('keywords' => "About Zeeq Tech")); ?>
 
 <?php require_once (path("header.php")) ?>
@@ -34,7 +34,7 @@
                                     </span>
                                     <div class="line-separator line-right"></div>
                                 </div>
-                                <h2 class="title w-700 tmp-title-split">Lets Know <span class="theme-gradient">About</span> Our <br> Company</h2>
+                                <h2 class="title w-700 tmp-title-split">Who We Are</h2>
                             </div>
                             <div class="discription">
                                 ZeeqTech is a forward-thinking technology company focused on building innovative software systems, fintech infrastructure, and intelligent business solutions for modern enterprises.
@@ -85,22 +85,79 @@
                         </div>
                     </div>
                     <div class="col-lg-12">
-                                    <p class="discription mb--5">ZeeqTech is a technology engineering company building secure, scalable, and future-ready digital infrastructure for businesses and financial institutions worldwide.</p>
-                                    <p class="discription mb--5">We specialize in designing high-performance software systems, fintech platforms, and enterprise solutions that enable organizations to operate efficiently, scale confidently, and compete globally. Our work is rooted in engineering discipline, innovation, and a relentless focus on solving real economic problems through technology.</p>
-                                    <p class="discription mb--5">ZeeqTech is built with a global outlook. While rooted in emerging markets, our standards, architecture, and ambitions are international.</p>
-                                    <p class="discription mb--5">We aim to:</p>
-                                    <ul class="listing-style-solid">
-                                        <li>Deliver solutions that meet global compliance standards</li>
-                                        <li>Compete in international technology ecosystems</li>
-                                        <li>Partner with institutions across borders</li>
-                                        <li>Enable African businesses to scale globally</li>
+                        <h5 class="mb-2 mt-5">What We Offer</h5>
+                        <div class="discription mb--10"> 
+                            <b>Innovation & Product Architecture:</b><br> 
+                            We design future-ready digital products by combining: 
+                            <ul class="mb--0">
+                                <li>Strategic thinking</li>
+                                <li>User-centered design</li>
+                                <li>Secure system architecture</li>
+                                <li>Emerging technologies</li>
+                            </ul>
+                            <div>Our innovation framework focuses on building platforms that are modular, scalable, and adaptable across industries.</div>
+                        </div>
+                        <div class="discription mb--5"> 
+                            <b>Software Engineering & Development:</b><br> 
+                            ZeeqTech delivers full-cycle software engineering solutions including:
+                            <ul class="mb--0">
+                                <li>Enterprise software systems</li>
+                                <li>Cloud-native platforms</li>
+                                <li>API-driven infrastructure</li>
+                                <li>Web and mobile applications</li>
+                                <li>System automation solutions</li>
+                                <li>Data analytics platforms</li>
+                            </ul>
+                        </div>
+                        <div class="discription mb--10">
+                            We prioritize:
+                            <ul class="mb--0">
+                                <li>Clean code architecture</li>
+                                <li>Security-first design</li>
+                                <li>Performance optimization</li>
+                                <li>Scalability from day one</li>
+                            </ul>
+                            <div>Our engineering culture emphasizes precision, reliability, and long-term maintainability.</div>
+                        </div>
+                        <div class="discription mb--10"> 
+                            <b>Fintech & Digital Financial Infrastructure:</b><br> 
+                            Financial technology is a key pillar of our operations. We develop:
+                            <ul class="mb--5">
+                                <li>Payment processing systems</li>
+                                <li>Digital wallet infrastructure</li>
+                                <li>Virtual card systems</li>
+                                <li>Lending platforms</li>
+                                <li>Digital asset and crypto integrations</li>
+                                <li>Core financial management platforms</li>
+                            </ul>
+                            <div>Our fintech solutions are designed to support:</div>
+                            <ul class="mb--0">
+                                <li>Cross-border transactions</li>
+                                <li>High-volume transaction processing</li>
+                                <li>Regulatory compliance frameworks</li>
+                                <li>Secure asset management</li>
+                            </ul>
+                        </div>
+                        <div class="discription mb--5"> 
+                            <b>Business Solutions & Enterprise Systems:</b><br> 
+                            Beyond fintech, ZeeqTech develops intelligent business tools that drive operational efficiency. We create systems that:
+                            <ul class="mb--5">
+                                <li>Automate workflows</li>
+                                <li>Improve data visibility</li>
+                                <li>Enhance financial reporting</li>
+                                <li>Streamline supply chain operations</li>
+                                <li>Enable digital transformation</li>
+                            </ul>
+                            <div>Our approach is consultative we analyze operational gaps and design technology that produces measurable ROI.</div>  
+                        </div>
+                        
+                        <h5 class="mb-2 mt-5">Our Vision</h5>
+                        <div class="discription mb--10">To become a trusted technology infrastructure company powering digital finance and business enterprise transformation.</p>
+                    
+                        <h5 class="mb-2 mt-5">Our Mission</h5>
+                        <div class="discription mb--10">To design and deploy innovative, secure, and scalable software systems that empower businesses, financial institutions, and digital economies worldwide.</p>
 
-                                    </ul>
-
-                                    <p class="discription mb--0">
-                                        Our vision extends beyond local deployment we engineer platforms designed for international scalability.
-                                    </p>
-                                </div>
+                    </div>
                 </div>
             </div>
         </div>

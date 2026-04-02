@@ -36,3 +36,9 @@
 .slider-style-2.variation-2 .inner p {
   padding-right: 0;
 }
+
+ul li {
+  line-height: unset;
+  margin-top: unset;
+  margin-bottom: unset;
+}
