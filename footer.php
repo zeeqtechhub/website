@@ -47,15 +47,15 @@
                             <div class="inner">
                                 <h6 class="subtitle">10000+ trusted clients are subscribe Us around the world</h6>
                                 <ul class="social-icon social-default justify-content-start">
-                                    <li><a href="https://www.facebook.com/ccerrandpay">
+                                    <li><a href="https://www.facebook.com/share/1BpfZX46fg/">
                                             <i class="feather-facebook"></i>
                                         </a>
                                     </li>
-                                    <li><a href="https://x.com/errandpay0/">
+                                    <li><a href="https://x.com/techzeeq6534">
                                             <i class="feather-twitter"></i>
                                         </a>
                                     </li>
-                                    <li><a href="https://www.linkedin.com/company/errandpay/">
+                                    <li><a href="https://www.linkedin.com/company/zeeq-tech/">
                                             <i class="feather-linkedin"></i>
                                         </a>
                                     </li>
