@@ -8897,7 +8897,7 @@ input[type=radio] ~ label::after {
   border-color: var(--color-primary);
 }
 .form-group textarea {
-  min-height: 193px;
+  min-height: 100px;
   border: var(--border-width) solid var(--color-border);
   border-radius: var(--radius);
   resize: none;
@@ -18749,14 +18749,14 @@ Timeline Area
 /*==========================
     Contact Address 
 ============================*/
-.contact-form-1 .form-group input {
+/* .contact-form-1 .form-group input {
   height: 70px;
   padding: 0 20px;
-}
-.contact-form-1 .form-group textarea {
+} */
+/* .contact-form-1 .form-group textarea {
   padding-top: 20px;
   padding-left: 20px;
-}
+} */
 .contact-form-1 .form-group .attach {
   border: var(--border-width) solid var(--color-border);
   position: relative;

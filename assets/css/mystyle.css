@@ -25,6 +25,10 @@
   height: -webkit-fill-available;
 }
 
+.tmp-address:not(:first-child) {
+  margin-top: 3rem;
+}
+
 .rounded-8px {
   border-radius: 8px !important;
 }
