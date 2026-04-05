@@ -28,6 +28,6 @@
     <link rel="stylesheet" href="<?= assetlink("assets/css/style16eb.css?v=4.3.1") ?>">
     <link rel="stylesheet" href="<?= assetlink("assets/css/mystyle.css") ?>">
 </head>
-<body class="active-light-mode">
+<body class="active-light-mode <?= (getCurrentPage() == 'academy') ? 'onepage' : '' ?>">
     <main class="page-wrapper">
         <?php include (path("menu.php")); ?>

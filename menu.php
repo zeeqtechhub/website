@@ -1,6 +1,6 @@
 <!-- Start Header Area  -->
     <?php if(segment(0)): ?>
-        <header class="tmp-header header-default header-not-transparent header-sticky-smooth header-sticky">
+        <header class="tmp-header header-default header-transparent header-sticky-smooth header-sticky">
     <?php else: ?>
         <header class="tmp-header header-default header-transparent logo-white-show default-nav-white header-sticky header-one">
     <?php endif; ?>
@@ -17,7 +17,7 @@
                     <div class="header-right with-search">
 
                         <nav class="mainmenu-nav d-none d-lg-block">
-                            <?php include 'menu-contents.php'; ?>
+                            <?php include (path(getCurrentPage() === 'academy') ? 'onepage-menu-contents.php' : 'menu-contents.php'); ?>
                         </nav>
 
                         <!-- Start Mobile-Menu-Bar -->
@@ -51,6 +51,6 @@
                     </button>
                 </div>
             </div>
-            <?php include(path("menu-contents.php")) ?>
+            <?php include (path(getCurrentPage() === 'academy') ? 'onepage-menu-contents.php' : 'menu-contents.php'); ?>
         </div>
     </div>

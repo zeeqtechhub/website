@@ -1767,6 +1767,18 @@ iframe {
   background-image: url(../images/bg/bg-image-30.html);
 }
 
+.bg_image--31 {
+  background-image: url(../images/bg/bg-image-31.jpg);
+}
+
+.bg_image--32 {
+  background-image: url(../images/bg/bg-image-32.jpg);
+}
+
+.bg_image--33 {
+  background-image: url(../images/bg/bg-image-33.jpg);
+}
+
 /* Height and width */
 .fullscreen {
   min-height: 100vh;

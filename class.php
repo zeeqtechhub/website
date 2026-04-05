@@ -197,7 +197,6 @@ class App {
     public function segment($index, $default = null) {
         if(isset($this->segments[$index])) {
             return $this->segments[$index];
-            //return mysqli_real_escape_string($this->db(), $this->segments[$index]);
         }
         return $default;
     }
