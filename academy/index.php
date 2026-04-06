@@ -354,7 +354,7 @@
     <!-- End About Area  -->
 
     <!-- Start Service-2 Area  -->
-    <div style="display: noneX;" class="tmp-service-area tmp-section-gap bg-color-card">
+    <div style="display: none;" class="tmp-service-area tmp-section-gap bg-color-card">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
