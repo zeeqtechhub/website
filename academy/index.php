@@ -354,7 +354,7 @@
     <!-- End About Area  -->
 
     <!-- Start Service-2 Area  -->
-    <div style="display: none;" class="tmp-service-area XXXtmp-section-gap tmp-section-gap bg-color-card" id="services">
+    <div style="display: noneX;" class="tmp-service-area tmp-section-gap bg-color-card">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -491,12 +491,12 @@
     <!-- End Service-2 Area  -->
 
     <!-- Start Service-4 Area  -->
-    <div class="tmp-service-area tmp-section-gapTop mt_dec--30" id="service">
+    <div class="tmp-service-area tmp-section-gapTop mt_dec--30" id="services">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title text-center">
-                        <h4 class="subtitle color-secondary wow tmp-title-split">Academy programs</h4>
+                        <h4 class="subtitle color-secondary wow tmp-title-split">Our Services</h4>
                         <h2 class="title w-600 wow tmp-title-split">Our core learning services</h2>
                     </div>
                 </div>
@@ -811,7 +811,7 @@
 
 
     <!-- Start Accordion Area  -->
-    <div class="tmp-service-area tmp-section-gap bg-color-card" id="services">
+    <div class="tmp-service-area tmp-section-gap bg-color-card">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">

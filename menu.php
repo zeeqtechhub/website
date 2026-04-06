@@ -17,7 +17,7 @@
                     <div class="header-right with-search">
 
                         <nav class="mainmenu-nav d-none d-lg-block">
-                            <?php include (path(getCurrentPage() === 'academy') ? 'onepage-menu-contents.php' : 'menu-contents.php'); ?>
+                            <?php include (getCurrentPage() === 'academy') ? path('onepage-menu-contents.php') : path('menu-contents.php'); ?>
                         </nav>
 
                         <!-- Start Mobile-Menu-Bar -->
@@ -51,6 +51,6 @@
                     </button>
                 </div>
             </div>
-            <?php include (path(getCurrentPage() === 'academy') ? 'onepage-menu-contents.php' : 'menu-contents.php'); ?>
+            <?php include (getCurrentPage() === 'academy') ? path('onepage-menu-contents.php') : path('menu-contents.php'); ?>
         </div>
     </div>
