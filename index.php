@@ -496,7 +496,7 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
                                 <div class="thumbnail">
                                     <figure class="card-image">
                                         <a href="javascript:void(0)">
-                                            <img src="assets/images/portfolio/17.webp" style="height: 225px" alt="Portfolio-01">
+                                            <img src="assets/images/portfolio/32.jpeg" style="height: 225px" alt="Portfolio-01">
                                         </a>
                                     </figure>
                                     <a class="tmp-overlay" href="javascript:void(0)"></a>
@@ -518,7 +518,7 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
                                 <div class="thumbnail">
                                     <figure class="card-image">
                                         <a href="javascript:void(0)">
-                                            <img src="assets/images/portfolio/portfolio-05.jpg" style="height: 225px" alt="Portfolio-01">
+                                            <img src="assets/images/portfolio/33.jpeg" style="height: 225px" alt="Portfolio-01">
                                         </a>
                                     </figure>
                                     <a class="tmp-overlay" href="javascript:void(0)"></a>
@@ -811,7 +811,7 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
                     <div class="inner">
                         <div class="thumbnail invers-anime">
                             <a class="image" href="javascript:;">
-                                <img src="assets/images/blog/blog-01.jpg" alt="Blog Image">
+                                <img src="assets/images/blog/blog-07.jpeg" alt="Blog Image">
                             </a>
                         </div>
                         <div class="content">
@@ -829,7 +829,7 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
                 <div class="tmp-card box-card-style-default card-list-view tmponhover">
                     <div class="inner">
                         <div class="thumbnail invers-anime">
-                            <a class="image" href="javascript:;"><img src="assets/images/blog/blog-02.jpg" alt="Blog Image">
+                            <a class="image" href="javascript:;"><img src="assets/images/blog/blog-08.jpeg" alt="Blog Image">
                             </a>
                         </div>
                         <div class="content">
@@ -846,7 +846,7 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
             <div class="col-lg-6">
                 <div class="tmp-card box-card-style-default card-list-view tmponhover">
                     <div class="inner">
-                        <div class="thumbnail invers-anime"><a class="image" href="javascript:;"><img src="assets/images/blog/blog-03.jpg" alt="Blog Image"></a></div>
+                        <div class="thumbnail invers-anime"><a class="image" href="javascript:;"><img src="assets/images/blog/blog-09.jpeg" alt="Blog Image"></a></div>
                         <div class="content">
                             <h4 class="title"><a href="javascript:;">Corporate Leadership: How
                                     to Lead with Confidence</a></h4>
@@ -861,7 +861,7 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
             <div class="col-lg-6">
                 <div class="tmp-card box-card-style-default card-list-view tmponhover">
                     <div class="inner">
-                        <div class="thumbnail invers-anime"><a class="image" href="javascript:;"><img src="assets/images/blog/blog-04.jpg" alt="Blog Image"></a></div>
+                        <div class="thumbnail invers-anime"><a class="image" href="javascript:;"><img src="assets/images/blog/blog-10.jpeg" alt="Blog Image"></a></div>
                         <div class="content">
                             <h4 class="title"><a href="javascript:;">Navigating the Corporate
                                     Landscape: A Guide</a></h4>

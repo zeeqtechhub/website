@@ -15,7 +15,7 @@
                                 <img src="<?= img("assets/images/about/about-10.jpg") ?>" alt="" loading="lazy">
                             </div>
                             <div class="small-iamge-area images-left-right-float">
-                                <img src="<?= img("assets/images/about/about-12.png") ?>" alt="" loading="lazy">
+                                <img src="<?= img("assets/images/about/about-13.jpg") ?>" alt="" loading="lazy">
                                 <!-- <div class="video-icon">
                                     <a class="tmp-btn rounded-player popup-video" href="javascript:;">
                                         <span><i class="feather-play"></i></span>

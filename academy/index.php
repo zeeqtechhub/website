@@ -8,7 +8,7 @@
     <!-- Start Slider Area  -->
     <div class="slider-area slider-style-4 variation-2 slider-activation slider-dot tmp-slick-dot tmp-slick-arrow pt--80" id="hero">
         <!-- Start Single Slider  -->
-        <div class="height-850 bg_image bg_image--31 d-flex align-items-center" data-black-overlay="1">
+        <div class="height-850 bg_image bg_image--33 d-flex align-items-center" data-black-overlay="1">
             <div class="container">
                 <div class="row row--30 align-items-center">
                     <div class="col-12">
@@ -91,7 +91,7 @@
         <!-- End Single Slider  -->
 
         <!-- Start Single Slider  -->
-        <div class="height-850 bg_image bg_image--33 d-flex align-items-center" data-black-overlay="1">
+        <div class="height-850 bg_image bg_image--31 d-flex align-items-center" data-black-overlay="1">
             <div class="container">
                 <div class="row row--30 align-items-center">
                     <div class="col-12">
