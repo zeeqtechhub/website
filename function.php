@@ -453,10 +453,18 @@ function getCurrentPage() {
     }
 
     // Trim trailing slashes
-    $path = rtrim($path, '/');
+    $path = trim($path, '/');
 
-    // Return the last segment
-    return basename($path);
+    // Break into segments
+    $segments = explode('/', $path);
+
+    // If there's only one segment (project folder), treat as home
+    if (count($segments) === 1) {
+        return 'home';
+    }
+
+    // Otherwise return the last segment
+    return end($segments);
 }
 
 
@@ -559,13 +567,11 @@ function slugify($text) {
  * @param string $cssClass
  * @return string|null
  */
-function current_menu($page = null, $cssClass = "active") {
-    $path = trim(parse_url(getFullUrl(), PHP_URL_PATH), "/");
-    $page = (!$page || $page == "index" || $page == "home") ? "" : $page;
-
-    if($path === $page) return $cssClass;
-    return null;
+function current_menu($page = "home", $cssClass = "active") {
+    // Compare against the current page
+    return ($page === getCurrentPage()) ? $cssClass : null;
 }
+
 
 /**
  * This returns only the host name without subdomain
