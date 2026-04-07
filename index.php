@@ -190,7 +190,7 @@
     <!-- End Service__Style--1 Area  -->
 
     <!-- Srart About Area  -->
-    <div class="about-area about-style-4 tmp-section-gapBottom">
+    <div class="about-area about-style-4">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-5">
@@ -406,7 +406,7 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
                                 Emerging technologies
                             </li>
                         </ul>
-                        <div class="quote-area-about tmponhover bg-card mt--30">
+                        <div class="quote-area-about tmponhover bg-card mt--30 mb--20">
                             <p>"ZeeqTech is a technology engineering company building intelligent financial and enterprise systems for the modern global economy." </p>
                         </div>
                         <a href="<?= url("services") ?>" class="tmp-btn btn-primary">Our Services</a>
@@ -774,6 +774,28 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
                                 <div class="content">
                                     <h5 class="title mb--20">
                                         <a href="javascript:void(0)">ZEEQ MANDATE</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Start Single Portfolio  -->
+
+                    <!-- Start Single Portfolio  -->
+                    <div class="portfolio-4 cat--2 cat--1">
+                        <div class="tmp-card portfolio">
+                            <div class="inner">
+                                <div class="thumbnail">
+                                    <figure class="card-image">
+                                        <a href="javascript:void(0)">
+                                            <img src="assets/images/portfolio/ziqpay.png" style="height: 225px" alt="Portfolio-01">
+                                        </a>
+                                    </figure>
+                                    <a class="tmp-overlay" href="javascript:void(0)"></a>
+                                </div>
+                                <div class="content">
+                                    <h5 class="title mb--20">
+                                        <a href="javascript:void(0)">ZIQPAY</a>
                                     </h5>
                                 </div>
                             </div>

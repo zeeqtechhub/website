@@ -1,7 +1,7 @@
 <?php require_once ("../important.php") ?>
-<?php $app->setTitle("Zeeq Academy") ?>
-<?php $app->setMetaTags(array('description' => "Zeeq Academy - Learn with Us")); ?>
-<?php $app->setMetaTags(array('keywords' => "Zeeq Academy, Learning, Education")); ?>
+<?php $app->setTitle("Zeeqtech Academy") ?>
+<?php $app->setMetaTags(array('description' => "Zeeqtech Academy - Learn with Us")); ?>
+<?php $app->setMetaTags(array('keywords' => "Zeeqtech Academy, Learning, Education")); ?>
 
 <?php require_once (path("header.php")) ?>
 
@@ -13,7 +13,7 @@
                 <div class="row row--30 align-items-center">
                     <div class="col-12">
                         <div class="inner banner-startup-agency-content text-start pt--0">
-                            <h1 class="title w-700">Build your future with <br> <span class="theme-gradient">Zeeq Academy.</span></h1>
+                            <h1 class="title w-700">Build your future with <br> <span class="theme-gradient">Zeeqtech Academy.</span></h1>
                             <p class="description">Gain practical digital skills, coding experience, and AI knowledge with hands-on learning programs.</p>
                             <!-- <div class="button-group mt--30">
                                 <a class="tmp-btn btn-large round hover-icon-reverse" href="contact-white.html">
@@ -143,8 +143,9 @@
                             </div>
                             <h2 class="title w-700 mb--30 tmp-title-split">Africa's digital transformation academy for future innovators.</h2>
 
-                            <p class="tmp-title-split-p">Zeeqtech Academy is a next-generation ICT training institution designed to identify, nurture, and develop young minds into world-class tech talents and startup founders. Starting from secondary school level, we equip students with practical digital skills, entrepreneurial thinking, and real-world problem-solving abilities. At Zeeqtech Academy, we guide students through a structured journey from basic digital literacy to advanced tech skills and entrepreneurial development. Our programs are designed to spark curiosity, build competence, and unlock opportunities in tech and fintech.</p>
-                            <ul class="feature-list">
+                            <p class="tmp-title-split-p mb--10">Zeeqtech Academy is a next-generation ICT training institution designed to identify, nurture, and develop young minds into world-class tech talents and startup founders. Starting from secondary school level, we equip students with practical digital skills, entrepreneurial thinking, and real-world problem-solving abilities. </p>
+                            <p class="tmp-title-split-p mb-0">At Zeeqtech Academy, we guide students through a structured journey from basic digital literacy to advanced tech skills and entrepreneurial development. Our programs are designed to spark curiosity, build competence, and unlock opportunities in tech and fintech.</p>
+                            <ul style="display: none;" class="feature-list">
                                 <li>
                                     <div class="title-wrapper">
                                         <h4 class="title mb-0">Vision Statement</h4>
@@ -171,7 +172,7 @@
                     <div class="video-btn">
                         <div class="video-popup icon-center about-relative-thumb">
                             <div class="overlay-content">
-                                <div class="thumbnail invers-anime"><img class="radius-small" src="<?= img("assets/images/about/03.jpg") ?>" alt="Zeeq Academy Students"></div>
+                                <div class="thumbnail invers-anime"><img class="radius-small" src="<?= img("assets/images/about/03.jpg") ?>" alt="Zeeqtech Academy Students"></div>
                             </div>
                         </div>
                     </div>
@@ -268,9 +269,6 @@
     </div>
     <!-- tmp brand area start -->
 
-
-
-
     <!-- Start About Area  -->
     <div class="tmp-about-area tmp-section-gapBottom">
         <div class="container">
@@ -283,58 +281,50 @@
                                 <span class="subtitle bg-primary-opacity">Our Mission</span>
                                 <h2 class="title tmp-title-split" style="font-weight: 600;">Empowering students and institutions <br> with future-ready digital skills.</h2>
                             </div>
-                            <p class="tmp-title-split-p">Zeeq Academy equips secondary school students, schools, and institutions with practical digital skills, innovative thinking, and technology-ready competencies through structured training, curriculum development, and consultancy.</p>
+                            <p class="tmp-title-split-p">Zeeqtech Academy equips secondary school students, schools, and institutions with practical digital skills, innovative thinking, and technology-ready competencies through structured training, curriculum development, and consultancy.</p>
                             
-                            <h4>Core Values</h4>
+                            <h4>Core Learning Services</h4>
                             <ul class="feature-list">
-                                <li>
+                                <li class="mb-4">
                                     <div class="icon">
                                         <i class="feather-check"></i>
                                     </div>
                                     <div class="title-wrapper">
-                                        
-                                        <p class="text mt-0 mb-4"><b>Innovation:</b> embrace creativity and forward-thinking solutions.</p>
+                                        <p class="text mt-0 mb-0"><b>Digital Skill Training for Secondary School Students:</b> Practical lessons in computer literacy, productivity tools, online safety, and beginner coding.</p>
                                     </div>
                                 </li>
-                                <li>
+                                <li class="mb-4">
                                     <div class="icon">
                                         <i class="feather-check"></i>
                                     </div>
                                     <div class="title-wrapper">
-                                        <p class="text mt-0 mb-4"><b>Excellence:</b> We embrace creativity and forward-thinking solutions.</p>
+                                        <p class="text mt-0 mb-0"><b>ICT Curriculum Development:</b> Custom curriculum design, lesson planning, and syllabus alignment for digital literacy, coding, and future-ready ICT skills.</p>
                                     </div>
                                 </li>
-                                <li>
+                                <li class="mb-4">
                                     <div class="icon">
                                         <i class="feather-check"></i>
                                     </div>
                                     <div class="title-wrapper">
-                                        <p class="text mt-0 mb-4"><b>Integrity:</b> We operate with transparency and accountability.</p>
+                                        <p class="text mt-0 mb-0"><b>Coding & AI Programs:</b> Hands-on programming and AI learning tracks that teach app building, automation, and machine learning concepts.</p>
                                     </div>
                                 </li>
-                                <li>
+                                <li class="mb-4">
                                     <div class="icon">
                                         <i class="feather-check"></i>
                                     </div>
                                     <div class="title-wrapper">
-                                        <p class="text mt-0 mb-4"><b>Impact:</b> We measure success by the value we create.</p>
+                                        <p class="text mt-0 mb-0"><b>EdTech Integration for Schools:</b> Support for digital classroom technology, teacher training, platform adoption, and effective use of education technology tools.</p>
                                     </div>
                                 </li>
-                                <li>
+                                <li class="mb-4">
                                     <div class="icon">
                                         <i class="feather-check"></i>
                                     </div>
                                     <div class="title-wrapper">
-                                        <p class="text mt-0 mb-4"><b>Collaboration:</b> We grow through partnerships and teamwork.</p>
+                                        <p class="text mt-0 mb-0"><b>Technology Transformation Consultancy:</b> Strategic guidance for digital change, maturity assessment, implementation planning, and smarter technology systems.</p>
                                     </div>
                                 </li>
-                                <li>
-                                    <div class="icon">
-                                        <i class="feather-check"></i>
-                                    </div>
-                                    <div class="title-wrapper">
-                                        <p class="text mt-0 mb-4"><b>Continuous Learning:</b> We evolve with technology trends.</p>
-                                    </div>
                             </ul>
                         </div>
                     </div>
@@ -343,7 +333,7 @@
                     <div class="video-btn">
                         <div class="video-popup icon-center">
                             <div class="overlay-content">
-                                <div class="thumbnail invers-anime"><img class="radius-small" loading="lazy" src="<?= img("assets/images/about/04.jpg") ?>" alt="Zeeq Academy training"></div>
+                                <div class="thumbnail invers-anime"><img class="radius-small" loading="lazy" src="<?= img("assets/images/about/04.jpg") ?>" alt="Zeeqtech Academy training"></div>
                             </div>
                         </div>
                     </div>
@@ -491,7 +481,7 @@
     <!-- End Service-2 Area  -->
 
     <!-- Start Service-4 Area  -->
-    <div class="tmp-service-area tmp-section-gapTop mt_dec--30" id="services">
+    <div style="display: none;" class="tmp-service-area tmp-section-gapTop mt_dec--30" id="services">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -582,7 +572,7 @@
     <!-- Start Service-4 Area  -->
 
     <!-- Start Portfolio Area  -->
-    <div class="tmp-portfolio-area tmp-section-gapTop" id="portfolio">
+    <div class="tmp-portfolio-area" id="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -817,7 +807,7 @@
                 <div class="col-lg-12">
                     <div class="section-title text-center">
                         <!-- <h4 class="subtitle color-secondary wow tmp-title-split">Frequently Asked Questions</h4> -->
-                        <h2 class="title w-600 wow tmp-title-split">Learn more about Zeeq Academy</h2>
+                        <h2 class="title w-600 wow tmp-title-split">Learn more about Zeeqtech Academy</h2>
                     </div>
                 </div>
             </div>
@@ -829,7 +819,7 @@
                             <div class="accordion-item card tmponhover">
                                 <h2 class="accordion-header card-header" id="headingOne">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        What programs does Zeeq Academy offer?
+                                        What programs does Zeeqtech Academy offer?
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExamplea">
@@ -842,7 +832,7 @@
                             <div class="accordion-item card tmponhover">
                                 <h2 class="accordion-header card-header" id="headingTwo">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Who can benefit from Zeeq Academy?
+                                        Who can benefit from Zeeqtech Academy?
                                     </button>
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExamplea">

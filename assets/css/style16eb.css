@@ -19724,7 +19724,7 @@ iframe {
 .about-style-4 .feature-list li .title-wrapper .text {
   font-size: 16px;
   margin-bottom: 20px;
-  max-width: 80%;
+  /* max-width: 80%; */
   margin-top: 13px;
 }
 @media only screen and (max-width: 1199px) {
