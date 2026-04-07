@@ -458,14 +458,20 @@ function getCurrentPage() {
     // Break into segments
     $segments = explode('/', $path);
 
-    // If there's only one segment (project folder), treat as home
-    if (count($segments) === 1) {
-        return 'home';
+    $host = $_SERVER['HTTP_HOST'] ?? $_SERVER['SERVER_NAME'];
+
+    // On localhost or local IP, ignore the first segment (project folder)
+    if (strpos($host, 'localhost') !== false || strpos($host, '192.168.') !== false) {
+        if (count($segments) === 1) {
+            return 'home'; // only project folder
+        }
+        return end($segments); // deeper page
     }
 
-    // Otherwise return the last segment
+    // On custom domain, first segment is the page
     return end($segments);
 }
+
 
 
 
