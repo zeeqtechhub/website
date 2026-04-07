@@ -472,9 +472,6 @@ function getCurrentPage() {
     return end($segments);
 }
 
-
-
-
 /**
  * Function to get user ip address
  * @return string
