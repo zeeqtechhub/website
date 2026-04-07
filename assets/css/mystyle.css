@@ -25,10 +25,20 @@
   height: -webkit-fill-available;
 }
 
+.tmp-address:not(:first-child) {
+  margin-top: 3rem;
+}
+
 .rounded-8px {
   border-radius: 8px !important;
 }
 
 .slider-style-2.variation-2 .inner p {
   padding-right: 0;
+}
+
+ul li {
+  line-height: unset;
+  margin-top: unset;
+  margin-bottom: unset;
 }

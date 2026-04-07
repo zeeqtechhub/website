@@ -8,7 +8,7 @@
     <!-- Start Contact Area  -->
     <div class="main-content">
 
-        <div class="tmp-contact-area tmp-section-gap">
+        <div class="tmp-contact-area tmp-section-gap pb--50">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -20,52 +20,10 @@
                                 </span>
                                 <div class="line-separator line-right"></div>
                             </div>
-                            <h2 class="title w-700 mt--20 tmp-title-split">Let's Contact With Us</h2>
+                            <h2 class="title w-700 mt--20 Xtmp-title-split">Let's Hear From You</h2>
                         </div>
                     </div>
                 </div>
-                <div class="row g-5 mt--30">
-                    <div class="col-lg-12">
-                        <div class="tmp-contact-address mt_dec--30">
-                            <div class="row g-5">
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="tmp-address tmponhover">
-                                        <div class="icon">
-                                            <i class="feather-headphones"></i>
-                                        </div>
-                                        <div class="inner">
-                                            <h4 class="title">Call us todays</h4>
-                                            <p><a href="tel:+2349098880751">+234 909 888 0751</a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="tmp-address tmponhover">
-                                        <div class="icon">
-                                            <i class="feather-mail"></i>
-                                        </div>
-                                        <div class="inner">
-                                            <h4 class="title">Send an Email</h4>
-                                            <p><a href="mailto:info@zeeqtech.com">info@zeeqtech.com</a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="tmp-address tmponhover">
-                                        <div class="icon">
-                                            <i class="feather-map-pin"></i>
-                                        </div>
-                                        <div class="inner">
-                                            <h4 class="title">Visit our HQ</h4>
-                                            <p>Suite D4 Triple H Plaza Wuye Behind VIO office. Abuja, Nigeria</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
 
@@ -73,11 +31,36 @@
         <!-- appoinment area start -->
         <div class="inv-appoinment-area-start tmp-section-gapBottom">
             <div class="container">
-                <div class="row g-5">
-
+                <div class="row align-items-center g-5">
                     <div class="col-lg-5">
-                        <div class="aapoiment-left-area-thumbnail">
-                            <img src="<?= img("assets/images/appoinment/01.jpg") ?>" alt="appoinment">
+                        <div class="tmp-contact-address mt_dec--30">
+                            <div class="tmp-address tmponhover">
+                                <div class="icon">
+                                    <i class="feather-headphones"></i>
+                                </div>
+                                <div class="inner">
+                                    <h4 class="title">Call us todays</h4>
+                                    <p><a href="tel:+2349098880751">+234 909 888 0751</a></p>
+                                </div>
+                            </div>
+                            <div class="tmp-address tmponhover">
+                                <div class="icon">
+                                    <i class="feather-mail"></i>
+                                </div>
+                                <div class="inner">
+                                    <h4 class="title">Send an Email</h4>
+                                    <p><a href="mailto:info@zeeqtech.com">info@zeeqtech.com</a></p>
+                                </div>
+                            </div>
+                            <div class="tmp-address tmponhover">
+                                <div class="icon">
+                                    <i class="feather-map-pin"></i>
+                                </div>
+                                <div class="inner">
+                                    <h4 class="title">Visit our HQ</h4>
+                                    <p>Suite D4 Triple H Plaza Wuye Behind VIO office. Abuja, Nigeria</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-7">
@@ -90,6 +73,7 @@
                                     <input type="tel" name="contact-phone" id="contact-phone" placeholder="Phone Number">
                                 </div>
                             </div>
+                            
                             <div class="form-group tmponhover">
                                 <input type="email" id="contact-email" name="contact-email" placeholder="Your Email" required>
                             </div>
@@ -102,8 +86,8 @@
                                 <textarea name="contact-message" id="contact-message" placeholder="Your Message"></textarea>
                             </div>
 
-                            <div class="form-group tmponhover">
-                                <button name="submit" type="submit" id="submit" class="btn-default btn-large tmp-btn" style="width: 100%;">
+                            <div class="tmponhover">
+                                <button name="submit" id="submit" class="btn-default btn-small tmp-btn w-100">
                                     <span>Submit Now</span>
                                 </button>
                             </div>

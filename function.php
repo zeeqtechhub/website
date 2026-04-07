@@ -439,6 +439,27 @@ function segment($index, $default = null) {
     return App::getInstance()->segment($index, $default);
 }
 
+/**
+ * Function to get the current page name
+ * @return string|null
+ */
+function getCurrentPage() {
+    $url = getFullUrl();
+    $path = parse_url($url, PHP_URL_PATH);
+
+    // If no path or just root, return "home"
+    if (empty($path) || $path === '/') {
+        return 'home';
+    }
+
+    // Trim trailing slashes
+    $path = rtrim($path, '/');
+
+    // Return the last segment
+    return basename($path);
+}
+
+
 
 /**
  * Function to get user ip address

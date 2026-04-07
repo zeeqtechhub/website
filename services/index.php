@@ -27,13 +27,6 @@
                     <div class="col-lg-7 pl--60 pl_md--10 pl_sm--10 mt_md--30 mt_sm--30">
                         <div class="about-wrapper-8">
                             <div class="tmp-section-title-border text-start">
-                                <div class="pres-line-separator-wrapper text-start mb--10">
-                                    <span class="subtitle">
-                            <span class="number">03</span>
-                                    <span class="subtitle-text">Services</span>
-                                    </span>
-                                    <div class="line-separator line-right"></div>
-                                </div>
                                 <h2 class="title w-700 tmp-title-split">Our<span class="theme-gradient"> Services</span></h2>
                             </div>
                             <div class="discription">
@@ -82,7 +75,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-12">
+                    <div class="row mt-5">
+                        <div class="col-lg-6">
                                     <div class="discription mb--10 mt--20"> 
                                         <b>Innovation & Product Architecture:</b><br> 
                                         We design future-ready digital products by combining: 
@@ -117,6 +111,8 @@
                                         </ul>
                                         <div>Our engineering culture emphasizes precision, reliability, and long-term maintainability.</div>
                                     </div>
+                        </div>
+                        <div class="col-lg-6">
                                     <div class="discription mb--5"> 
                                         <b>Fintech & Digital Financial Infrastructure:</b><br> 
                                         Financial technology is a key pillar of our operations. We develop:
@@ -153,6 +149,8 @@
                                         </div>  
                                     </div>
                                 </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
