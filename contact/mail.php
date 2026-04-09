@@ -29,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
     
     // Prepare email
-    $to = 'deleolanusi@gmail.com';
+    $to = 'info@zeeqtech.com';
     $email_subject = !empty($subject) ? 'New Contact: ' . htmlspecialchars($subject) : 'New Contact Form Submission';
     
     // Build email body
