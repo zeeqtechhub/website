@@ -832,16 +832,16 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
                 <div class="tmp-card box-card-style-default card-list-view tmponhover">
                     <div class="inner">
                         <div class="thumbnail invers-anime">
-                            <a class="image" href="javascript:;">
+                            <a class="image" href="blog-details.html">
                                 <img src="assets/images/blog/blog-07.jpeg" alt="Blog Image">
                             </a>
                         </div>
                         <div class="content">
-                            <h4 class="title"><a href="javascript:;">How to Analyze Your Best
+                            <h4 class="title"><a href="blog-details.html">How to Analyze Your Best
                                     Pages for SEO Performance</a></h4>
                             <p class="descriptiion">It is a long established fact that a reader.</p>
                             <div class="read-more-btn">
-                                <a class="btn-read-more" href="javascript:;"><span>Read More</span></a>
+                                <a class="btn-read-more" href="blog-details.html"><span>Read More</span></a>
                             </div>
                         </div>
                     </div>
@@ -851,15 +851,15 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
                 <div class="tmp-card box-card-style-default card-list-view tmponhover">
                     <div class="inner">
                         <div class="thumbnail invers-anime">
-                            <a class="image" href="javascript:;"><img src="assets/images/blog/blog-08.jpeg" alt="Blog Image">
+                            <a class="image" href="blog-details.html"><img src="assets/images/blog/blog-08.jpeg" alt="Blog Image">
                             </a>
                         </div>
                         <div class="content">
-                            <h4 class="title"><a href="javascript:;">Corporate Success: How to
+                            <h4 class="title"><a href="blog-details.html">Corporate Success: How to
                                     Achieve Your Goals</a></h4>
                             <p class="descriptiion">Corporate Success established fact that.</p>
                             <div class="read-more-btn">
-                                <a class="btn-read-more" href="javascript:;"><span>Read More</span></a>
+                                <a class="btn-read-more" href="blog-details.html"><span>Read More</span></a>
                             </div>
                         </div>
                     </div>
@@ -868,13 +868,13 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
             <div class="col-lg-6">
                 <div class="tmp-card box-card-style-default card-list-view tmponhover">
                     <div class="inner">
-                        <div class="thumbnail invers-anime"><a class="image" href="javascript:;"><img src="assets/images/blog/blog-09.jpeg" alt="Blog Image"></a></div>
+                        <div class="thumbnail invers-anime"><a class="image" href="blog-details.html"><img src="assets/images/blog/blog-09.jpeg" alt="Blog Image"></a></div>
                         <div class="content">
-                            <h4 class="title"><a href="javascript:;">Corporate Leadership: How
+                            <h4 class="title"><a href="blog-details.html">Corporate Leadership: How
                                     to Lead with Confidence</a></h4>
                             <p class="descriptiion">Leadership established fact that a reader.</p>
                             <div class="read-more-btn">
-                                <a class="btn-read-more" href="javascript:;"><span>Read More</span></a>
+                                <a class="btn-read-more" href="blog-details.html"><span>Read More</span></a>
                             </div>
                         </div>
                     </div>
@@ -883,14 +883,14 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
             <div class="col-lg-6">
                 <div class="tmp-card box-card-style-default card-list-view tmponhover">
                     <div class="inner">
-                        <div class="thumbnail invers-anime"><a class="image" href="javascript:;"><img src="assets/images/blog/blog-10.jpeg" alt="Blog Image"></a></div>
+                        <div class="thumbnail invers-anime"><a class="image" href="blog-details.html"><img src="assets/images/blog/blog-10.jpeg" alt="Blog Image"></a></div>
                         <div class="content">
-                            <h4 class="title"><a href="javascript:;">Navigating the Corporate
+                            <h4 class="title"><a href="blog-details.html">Navigating the Corporate
                                     Landscape: A Guide</a></h4>
                             <p class="descriptiion">Navigating long established fact that a reader.
                             </p>
                             <div class="read-more-btn">
-                                <a class="btn-read-more" href="javascript:;"><span>Read More</span></a>
+                                <a class="btn-read-more" href="blog-details.html"><span>Read More</span></a>
                             </div>
                         </div>
                     </div>
