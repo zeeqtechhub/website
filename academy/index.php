@@ -8,7 +8,7 @@
     <!-- Start Slider Area  -->
     <div class="slider-area slider-style-4 variation-2 slider-activation slider-dot tmp-slick-dot tmp-slick-arrow pt--80" id="hero">
         <!-- Start Single Slider  -->
-        <div class="height-850 bg_image bg_image--33 d-flex align-items-center" data-black-overlay="1">
+        <div class="height-850 bg_image bg_image--32 d-flex align-items-center" data-black-overlay="1">
             <div class="container">
                 <div class="row row--30 align-items-center">
                     <div class="col-12">
@@ -54,7 +54,7 @@
         <!-- End Single Slider  -->
 
         <!-- Start Single Slider  -->
-        <div class="height-850 bg_image bg_image--32 d-flex align-items-center" data-black-overlay="1">
+        <div class="height-850 bg_image bg_image--31 d-flex align-items-center" data-black-overlay="1">
             <div class="container">
                 <div class="row row--30 align-items-center">
                     <div class="col-12">
@@ -100,7 +100,7 @@
         <!-- End Single Slider  -->
 
         <!-- Start Single Slider  -->
-        <div class="height-850 bg_image bg_image--31 d-flex align-items-center" data-black-overlay="1">
+        <div class="height-850 bg_image bg_image--33 d-flex align-items-center" data-black-overlay="1">
             <div class="container">
                 <div class="row row--30 align-items-center">
                     <div class="col-12">
@@ -190,7 +190,7 @@
                     <div class="video-btn">
                         <div class="video-popup icon-center about-relative-thumb">
                             <div class="overlay-content">
-                                <div class="thumbnail invers-anime"><img class="radius-small" src="<?= img("assets/images/about/03.jpg") ?>" alt="Zeeqtech Academy Students"></div>
+                                <div class="thumbnail invers-anime"><img class="radius-small" src="<?= img("assets/images/about/03.jpeg") ?>" alt="Zeeqtech Academy Students"></div>
                             </div>
                         </div>
                     </div>
@@ -225,7 +225,7 @@
                                 </div> -->
                                 <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
                                     <div class="thumbnail-area-wrapper-inner-6 invers-anime">
-                                        <img loading="lazy" src="<?= img("assets/images/timeline/02.jpg") ?>" alt="Student coding boot camp">
+                                        <img loading="lazy" src="<?= img("assets/images/timeline/02.jpeg") ?>" alt="Student coding boot camp">
                                     </div>
                                 </div>
                                 <!-- <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">

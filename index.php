@@ -788,7 +788,7 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
                                 <div class="thumbnail">
                                     <figure class="card-image">
                                         <a href="javascript:void(0)">
-                                            <img src="assets/images/portfolio/ziqpay.png" style="height: 225px" alt="Portfolio-01">
+                                            <img src="assets/images/portfolio/zeeqpay.jpg" style="height: 225px" alt="Portfolio-01">
                                         </a>
                                     </figure>
                                     <a class="tmp-overlay" href="javascript:void(0)"></a>
