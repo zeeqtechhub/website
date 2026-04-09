@@ -787,19 +787,19 @@
               _self.closest('div').find('button[type="submit"]').attr('disabled', 'disabled');
               var data = $(this).serialize();
               $.ajax({
-                url: 'mail/',
+                url: 'mail.php',
                 type: "post",
                 dataType: 'json',
                 data: data,
                 success: function (data) {
                   _self.closest('div').find('button[type="submit"]').removeAttr('disabled');
-                  if (data.code == false) {
+                  if (data.type === 'error') {
                     _self.closest('div').find('[name="' + data.field + '"]');
-                    _self.find('.tmp-btn').after('<div class="error-msg"><p>*' + data.err + '</p></div>');
+                    _self.find('.tmp-btn').after('<div class="error-msg"><p>*' + data.message + '</p></div>');
                   } else {
                     $('.error-msg').hide();
                     $('.form-group').removeClass('focused');
-                    _self.find('.tmp-btn').after('<div class="success-msg"><p>' + data.success + '</p></div>');
+                    _self.find('.tmp-btn').after('<div class="success-msg"><p>' + data.message + '</p></div>');
                     _self.closest('div').find('input,textarea').val('');
 
                     setTimeout(function () {

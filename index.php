@@ -597,7 +597,7 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
                                 </div>
                                 <div class="content">
                                     <h5 class="title mb--20">
-                                        <a href="javascript:void(0)">ZEEQ VENTORY</a>
+                                        <a href="javascript:void(0)">ZEEQ INVENTORY</a>
                                     </h5>
                                 </div>
                             </div>
@@ -795,7 +795,7 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
                                 </div>
                                 <div class="content">
                                     <h5 class="title mb--20">
-                                        <a href="javascript:void(0)">ZIQPAY</a>
+                                        <a href="javascript:void(0)">ZEEQPAY</a>
                                     </h5>
                                 </div>
                             </div>

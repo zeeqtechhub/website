@@ -16,7 +16,7 @@
                             <div class="pres-line-separator-wrapper text-center mb--10">
                                 <div class="line-separator line-left"></div>
                                 <span class="subtitle">
-                                    <span class="subtitle-text">Contact With Us</span>
+                                    <span class="subtitle-text">Contact Us</span>
                                 </span>
                                 <div class="line-separator line-right"></div>
                             </div>
@@ -64,18 +64,18 @@
                         </div>
                     </div>
                     <div class="col-lg-7">
-                        <form class="contact-form-1 appoinment-form-wrapper tmponhover tmp-dynamic-form" id="contact-form" method="POST" action="https://html.inversweb.com/corpox/mail/">
+                        <form id="contact-form" method="POST" action="" class="contact-form-1 appoinment-form-wrapper tmponhover tmp-dynamic-form">
                             <div class="form-group-wrapper">
                                 <div class="form-group tmponhover">
-                                    <input type="text" name="contact-name" id="contact-name" placeholder="Your Name" required>
+                                    <input type="text" id="contact-name" name="name" placeholder="Your Name" required>
                                 </div>
                                 <div class="form-group tmponhover">
-                                    <input type="tel" name="contact-phone" id="contact-phone" placeholder="Phone Number">
+                                    <input type="tel" id="contact-phone" name="telephone" placeholder="Phone Number">
                                 </div>
                             </div>
                             
                             <div class="form-group tmponhover">
-                                <input type="email" id="contact-email" name="contact-email" placeholder="Your Email" required>
+                                <input type="email" id="contact-email" name="email" placeholder="Your Email" required>
                             </div>
 
                             <div class="form-group tmponhover">
@@ -83,11 +83,11 @@
                             </div>
 
                             <div class="form-group tmponhover">
-                                <textarea name="contact-message" id="contact-message" placeholder="Your Message"></textarea>
+                                <textarea id="contact-message" name="message" placeholder="Your Message"></textarea>
                             </div>
 
                             <div class="tmponhover">
-                                <button name="submit" id="submit" class="btn-default btn-small tmp-btn w-100">
+                                <button type="submit" id="submit" class="btn-default btn-small tmp-btn w-100">
                                     <span>Submit Now</span>
                                 </button>
                             </div>
