@@ -15,15 +15,15 @@
                         <div class="inner banner-startup-agency-content text-start pt--0">
                             <h1 class="title w-700">Build your future with <br> <span class="theme-gradient">Zeeqtech Academy.</span></h1>
                             <p class="description">Gain practical digital skills, coding experience, and AI knowledge with hands-on learning programs.</p>
-                            <!-- <div class="button-group mt--30">
-                                <a class="tmp-btn btn-large round hover-icon-reverse" href="contact-white.html">
+                            <div class="button-group mt--30">
+                                <a class="tmp-btn btn-large round hover-icon-reverse" href="academy-portal.html">
                                     <span class="icon-reverse-wrapper">
-                                        <span class="btn-text">Get started now</span>
-                                    <span class="btn-icon"><i class="feather-arrow-right"></i></span>
-                                    <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                        <span class="btn-text">Enroll Now On Our Portal</span>
+                                        <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                        <span class="btn-icon"><i class="feather-arrow-right"></i></span>
                                     </span>
                                 </a>
-                            </div> -->
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -61,6 +61,15 @@
                         <div class="inner banner-startup-agency-content text-start pt--0">
                             <h1 class="title w-700">Master technology with <br> <span class="theme-gradient">Career-Ready Skills.</span></h1>
                             <p class="description">Advance your path through expert-led programs in software development, AI, and digital innovation.</p>
+                            <div class="button-group mt--30">
+                                <a class="tmp-btn btn-large round hover-icon-reverse" href="academy-portal.html">
+                                    <span class="icon-reverse-wrapper">
+                                        <span class="btn-text">Enroll Now On Our Portal</span>
+                                        <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                        <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                    </span>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -98,6 +107,15 @@
                         <div class="inner banner-startup-agency-content text-start pt--0">
                             <h1 class="title w-700">Transform your learning <br> <span class="theme-gradient">Grow with Us.</span></h1>
                             <p class="description">Unlock new opportunities with interactive courses, mentorship, and project-based academy training.</p>
+                            <div class="button-group mt--30">
+                                <a class="tmp-btn btn-large round hover-icon-reverse" href="academy-portal.html">
+                                    <span class="icon-reverse-wrapper">
+                                        <span class="btn-text">Enroll Now On Our Portal</span>
+                                        <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                        <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                    </span>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>

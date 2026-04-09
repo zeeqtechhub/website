@@ -27,8 +27,6 @@
             </div>
         </div>
 
-
-        <!-- appoinment area start -->
         <div class="inv-appoinment-area-start tmp-section-gapBottom">
             <div class="container">
                 <div class="row align-items-center g-5">
@@ -96,7 +94,6 @@
                 </div>
             </div>
         </div>
-        <!-- appoinment area end -->
 
     </div>
     <!-- End Contact Area  -->
