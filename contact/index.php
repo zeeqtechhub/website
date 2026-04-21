@@ -6,7 +6,7 @@
 <?php require_once (path("header.php")) ?>
 
     <!-- Start Contact Area  -->
-    <div class="main-content">
+    <div class="main-content contact-page">
 
         <div class="tmp-contact-area tmp-section-gap pb--50">
             <div class="container">
@@ -62,7 +62,7 @@
                         </div>
                     </div>
                     <div class="col-lg-7">
-                        <form id="contact-form" method="POST" action="" class="contact-form-1 appoinment-form-wrapper tmponhover tmp-dynamic-form">
+                        <form id="contact-form" method="POST" action="" class="contact-form-1 appoinment-form-wrapper tmponhover Xtmp-dynamic-form">
                             <div class="form-group-wrapper">
                                 <div class="form-group tmponhover">
                                     <input type="text" id="contact-name" name="name" placeholder="Your Name" required>
@@ -84,11 +84,35 @@
                                 <textarea id="contact-message" name="message" placeholder="Your Message"></textarea>
                             </div>
 
-                            <div class="tmponhover">
-                                <button type="submit" id="submit" class="btn-default btn-small tmp-btn w-100">
-                                    <span>Submit Now</span>
-                                </button>
+                            <?php if(config("enable-captcha", true)): ?>
+                                <div class="row mt-3">
+                                    <div class="mb-3 col-md-12">
+                                        <div class="col-md-6 mb-2">
+                                            <div class="input-group d-flex align-items-stretch captcha-code">
+                                                <input class="form-control captcha-input" type="text" placeholder="Enter the text here" name="captcha" id="captcha-input"/>
+                                                <img id="captcha-image" class="mr-1" src="<?php echo url("libraries/captcha.php") ?>" />
+                                                <div class="d-flex align-items-center">
+                                                    <a href="javascript:;" class="ml-1" onclick="document.getElementById('captcha-image').src='<?php echo url("libraries/captcha.php") ?>?' + Math.random(); document.getElementById('captcha-input').focus();">
+                                                        <i class="fa fa-refresh"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php else: ?>
+                                <div class="g-recaptcha" data-sitekey="<?php echo config('recaptcha-key'); ?>"></div>
+                                <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl=en">
+                                </script>
+                            <?php endif ?>
+
+                            <div>
+                                <button class="btn-small w-100 spin" data-send="false">
+                                <i class="fa fa-spinner fa-spin"></i> <span>Submit Now</span>
+                            </button>
                             </div>
+
+                            
                         </form>
                     </div>
                 </div>

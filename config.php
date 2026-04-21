@@ -46,6 +46,8 @@ return array(
     'site-title' => 'Zeeq Tech',
     'site-keywords' => 'Zeeq Tech',
     'site-description' => 'Zeeq Tech',
+
+    'recaptcha-key' => '6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI',
     
   
 

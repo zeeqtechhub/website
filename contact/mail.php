@@ -1,5 +1,5 @@
 <?php
-
+require_once ("../important.php");
 // Check if form was submitted
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     
@@ -32,6 +32,24 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $to = 'contact@zeeqtech.com';
     $email_subject = !empty($subject) ? 'New Contact: ' . htmlspecialchars($subject) : 'New Contact Form Submission';
     
+    if(config("enable-captcha", true)) {
+        $captcha = config("enable-captcha", 1);
+
+        if($captcha == 2) {
+            require_once path('includes/libraries/recaptcha/autoload.php');
+            $recaptcha = new \ReCaptcha\ReCaptcha(config('recaptcha-secret'));
+            $resp = $recaptcha->verify($_POST['g-recaptcha-response'], $_SERVER['REMOTE_ADDR']);
+        }
+
+        if(($captcha == 1 AND input('captcha') === '') ) {
+            return die(json_encode(array('type' => 'error', 'message' => "Enter the captcha code")));
+        }
+
+        if(($captcha == 1 AND session_get("sv_captcha") != input('captcha')) OR ($captcha == 2 AND !$resp->isSuccess())) {
+            return die(json_encode(array('type' => 'error', 'message' => "Invalid Captcha Code")));
+        }
+    }
+
     // Build email body
     $email_body = "You have received a new contact form submission.\n\n";
     $email_body .= "Name: " . htmlspecialchars($name) . "\n";

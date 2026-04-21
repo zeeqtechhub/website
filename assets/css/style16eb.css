@@ -12684,7 +12684,7 @@ Primary style
 }
 
 .tmp-btn,
-.btn-default {
+.btn-default, .contact-page button {
   padding: 0 28px;
   border-radius: 5px;
   background: var(--color-primary);

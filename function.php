@@ -166,7 +166,7 @@ function remove_header() {
  * @param mixed $default
  * @return mixed
  */
-function input($name, $default = "", $escape = true) {
+function inputXXXX($name, $default = "", $escape = true) {
     //if (!isset($_POST[$name]) and !isset($_GET[$name])) return $default;
     //for all admin lets escape be off
     //if (segment(0) == 'admincp') $escape = false;
@@ -212,6 +212,21 @@ function input($name, $default = "", $escape = true) {
     return $result;
 }
 
+/**
+ * Safely fetch a request parameter from GET or POST.
+ *
+ * @param string $key The parameter name
+ * @return mixed|null The value if set, otherwise null
+ */
+function input($key, $default = "") {
+    if (isset($_POST[$key])) {
+        return $_POST[$key];
+    }
+    if (isset($_GET[$key])) {
+        return $_GET[$key];
+    }
+    return $default;
+}
 /**
  * Function get user file input
  * @param string $name

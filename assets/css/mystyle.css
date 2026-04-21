@@ -42,3 +42,56 @@ ul li {
   margin-top: unset;
   margin-bottom: unset;
 }
+
+.contact-page .form-control:not(.captcha-input) {
+    border: 1px solid #eeeeee;
+    border-radius: 0px;
+    padding: 10px 20px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-size: 14px;
+    font-weight: 500;
+    background: #f6f6f6;
+    color: #022d62;
+    border-radius: 5px;
+    background-clip: inherit !important;
+}
+
+.contact-page .form-control:focus:not(.captcha-input) {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #ef3139;
+}
+
+.contact-page input.form-control:not(.captcha-input) {
+    height: 48px;
+}
+
+button[data-send=false].spin i, a[data-send=false].spin i{
+	display: none;
+}
+
+button[data-send=true].spin, a[data-send=true].spin {
+	cursor: not-allowed !important;
+	box-shadow: none !important;
+}
+
+button[data-send=true].spin:after{
+	content: "Processing...";
+}
+
+button.spin i, a.spin i {
+	margin-right: 3px;
+}
+
+.contact-page button {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border: none;
+    border-radius: 5px;
+    padding: 12px 25px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    color: #fff !important;
+}
