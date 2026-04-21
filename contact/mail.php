@@ -36,7 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $captcha = config("enable-captcha", 1);
 
         if($captcha == 2) {
-            require_once path('includes/libraries/recaptcha/autoload.php');
+            require_once path('libraries/recaptcha/autoload.php');
             $recaptcha = new \ReCaptcha\ReCaptcha(config('recaptcha-secret'));
             $resp = $recaptcha->verify($_POST['g-recaptcha-response'], $_SERVER['REMOTE_ADDR']);
         }

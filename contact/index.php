@@ -85,25 +85,27 @@
                             </div>
 
                             <?php if(config("enable-captcha", true)): ?>
-                                <div class="row mt-3">
-                                    <div class="mb-3 col-md-12">
-                                        <div class="col-md-6 mb-2">
-                                            <div class="input-group d-flex align-items-stretch captcha-code">
-                                                <input class="form-control captcha-input" type="text" placeholder="Enter the text here" name="captcha" id="captcha-input"/>
-                                                <img id="captcha-image" class="mr-1" src="<?php echo url("libraries/captcha.php") ?>" />
-                                                <div class="d-flex align-items-center">
-                                                    <a href="javascript:;" class="ml-1" onclick="document.getElementById('captcha-image').src='<?php echo url("libraries/captcha.php") ?>?' + Math.random(); document.getElementById('captcha-input').focus();">
-                                                        <i class="fa fa-refresh"></i>
-                                                    </a>
+                                <?php if(config("captcha-type", 1) === 1): ?>
+                                    <div class="row mt-3">
+                                        <div class="mb-3 col-md-12">
+                                            <div class="col-md-6 mb-2">
+                                                <div class="input-group d-flex align-items-stretch captcha-code">
+                                                    <input class="form-control captcha-input" type="text" placeholder="Enter the text here" name="captcha" id="captcha-input"/>
+                                                    <img id="captcha-image" class="mr-1" src="<?php echo url("libraries/captcha.php") ?>" />
+                                                    <div class="d-flex align-items-center">
+                                                        <a href="javascript:;" class="ml-1" onclick="document.getElementById('captcha-image').src='<?php echo url("libraries/captcha.php") ?>?' + Math.random(); document.getElementById('captcha-input').focus();">
+                                                            <i class="fa fa-refresh"></i>
+                                                        </a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            <?php else: ?>
-                                <div class="g-recaptcha" data-sitekey="<?php echo config('recaptcha-key'); ?>"></div>
-                                <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl=en">
-                                </script>
+                                <?php else: ?>
+                                    <div class="g-recaptcha" data-sitekey="<?php echo config('recaptcha-key'); ?>"></div>
+                                    <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl=en">
+                                    </script>
+                                <?php endif ?>
                             <?php endif ?>
 
                             <div>
