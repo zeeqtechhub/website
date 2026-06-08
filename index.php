@@ -9,15 +9,15 @@
     <!-- Start Slider Area  -->
     <div class="slider-animation-2 slider-activation-2 slider-dot tmp-slick-dot tmp-slick-arrow tmp-slick-arrow-white">
         <div class="slider-area slider-style-2 d-flex variation-2 height-850 bg_image bg_image--10">
-            <!-- <div class="container">
+            <div class="container">
                 <div class="row">
-                    <div class="col-lg-10 col-xl-10">
+                    <div class="col-lg-7 col-xl-7">
                         <div class="inner text-left">
-                            <h6 class="tag-title">Our Strategic Differentiators</h6>
-                            <h1 class="title display-one">We build <br /> <span>foundational systems,</span> not surface-level apps.</h1>
+                            <!-- <h6 class="tag-title">Our Strategic Differentiators</h6>
+                            <h1 class="title display-one">We build <br /> <span>foundational systems,</span> not surface-level apps.</h1> -->
                             <p class="mb--40 b1">We are technology engineering company building intelligent financial and enterprise systems for the modern global economy.</p>
                             <div class="read-more-btn">
-                                <a class="tmp-btn btn-large round hover-icon-reverse" href="services/">
+                                <a class="tmp-btn btn-small round hover-icon-reverse" href="services/">
                                     <span class="icon-reverse-wrapper">
                                     <span class="btn-text">Check our services</span>
                                     <span class="btn-icon"><i class="feather-arrow-right"></i></span>
@@ -28,20 +28,20 @@
                         </div>
                     </div>
                 </div>
-            </div> -->
-            <!-- <div class="grid-mask"></div> -->
+            </div>
+            <div class="grid-mask"></div>
         </div>
 
         <div class="slider-area slider-style-2 d-flex variation-2 height-850 bg_image bg_image--13">
-            <!-- <div class="container">
+            <div class="container">
                 <div class="row">
-                    <div class="col-lg-10 col-xl-10">
+                    <div class="col-lg-7 col-xl-7">
                         <div class="inner text-left">
-                            <h6 class="tag-title">Our Strategic Differentiators</h6>
-                            <h1 class="title display-one">We design <br /> <span> platforms</span> that grow with users and enterprises</h1>
-                            <p class="mb--40 b1">We are technology engineering company building intelligent financial and enterprise systems for the modern global economy.</p>
+                            <!-- <h6 class="tag-title">Our Strategic Differentiators</h6>
+                            <h1 class="title display-one">We design <br /> <span> platforms</span> that grow with users and enterprises</h1> -->
+                            <p class="mb--40 b1">We are not just a technology provider we are architects of systems that redefine how businesses operate, transact, and scale.</p>
                             <div class="read-more-btn">
-                                <a class="tmp-btn btn-large round hover-icon-reverse" href="services/">
+                                <a class="tmp-btn btn-small round hover-icon-reverse" href="services/">
                                     <span class="icon-reverse-wrapper">
                                         <span class="btn-text">Check our services</span>
                                     <span class="btn-icon"><i class="feather-arrow-right"></i></span>
@@ -53,19 +53,19 @@
                     </div>
                 </div>
             </div>
-            <div class="grid-mask"></div> -->
+            <div class="grid-mask"></div>
         </div>
 
         <div class="slider-area slider-style-2 d-flex variation-2 height-850 bg_image bg_image--19">
-            <!-- <div class="container">
+            <div class="container">
                 <div class="row">
-                    <div class="col-lg-10 col-xl-10">
+                    <div class="col-lg-7 col-xl-7">
                         <div class="inner text-left">
-                            <h6 class="tag-title">Our Strategic Differentiators</h6>
-                            <h1 class="title display-one">Technical excellence drives our <br /> <span>product decisions.</span></h1>
-                            <p class="mb--40 b1">We are technology engineering company building intelligent financial and enterprise systems for the modern global economy.</p>
+                            <!-- <h6 class="tag-title">Our Strategic Differentiators</h6>
+                            <h1 class="title display-one">Technical excellence drives our <br /> <span>product decisions.</span></h1> -->
+                            <p class="mb--40 b1">We are focused on building innovative software systems, fintech infrastructure, and intelligent business solutions for modern enterprises.</p>
                             <div class="read-more-btn">
-                                <a class="tmp-btn btn-large round hover-icon-reverse" href="services/">
+                                <a class="tmp-btn btn-small round hover-icon-reverse" href="services/">
                                     <span class="icon-reverse-wrapper">
                                         <span class="btn-text">Check our services</span>
                                     <span class="btn-icon"><i class="feather-arrow-right"></i></span>
@@ -77,7 +77,7 @@
                     </div>
                 </div>
             </div>
-            <div class="grid-mask"></div> -->
+            <div class="grid-mask"></div>
         </div>
     </div>
     <!-- End Slider Area  -->
@@ -190,7 +190,7 @@
     <!-- End Service__Style--1 Area  -->
 
     <!-- Srart About Area  -->
-    <div class="about-area about-style-4 tmp-section-gapBottom">
+    <div class="about-area about-style-4">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-5">
@@ -218,7 +218,7 @@
                                 </span>
                                 <div class="line-separator line-right"></div>
                             </div>
-                            <h2 class="title w-700 tmp-title-split">Lets Know <span class="theme-gradient">About</span> Our <br> Company</h2>
+                            <h2 class="title w-700 tmp-title-split">Lets Know <span class="theme-gradient">About</span> Our Company</h2>
                         </div>
                         <p class="discription">
                             We specialize in designing high-performance software systems, fintech platforms, and enterprise solutions that enable organizations to operate efficiently, scale confidently, and compete globally. Our work is rooted in engineering discipline, innovation, and a relentless focus on solving real economic problems through technology. <br>
@@ -406,7 +406,7 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
                                 Emerging technologies
                             </li>
                         </ul>
-                        <div class="quote-area-about tmponhover bg-card mt--30">
+                        <div class="quote-area-about tmponhover bg-card mt--30 mb--20">
                             <p>"ZeeqTech is a technology engineering company building intelligent financial and enterprise systems for the modern global economy." </p>
                         </div>
                         <a href="<?= url("services") ?>" class="tmp-btn btn-primary">Our Services</a>
@@ -451,20 +451,16 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
                             <div class="inner">
                                 <div class="thumbnail">
                                     <figure class="card-image">
-                                        <a href="javascript:;">
-                                            <img src="assets/images/portfolio/10.webp" alt="Portfolio-01">
+                                        <a href="portfolio-details.html">
+                                            <img src="assets/images/portfolio/xorachat.jpg" style="height: 225px" alt="Portfolio-01">
                                         </a>
                                     </figure>
-                                    <a class="tmp-overlay" href="javascript:;"></a>
+                                    <a class="tmp-overlay" href="portfolio-details.html"></a>
                                 </div>
                                 <div class="content">
                                     <h5 class="title mb--20">
                                         <a href="javascript:void(0)">XORA Chat</a>
                                     </h5>
-                                    <div class="tmp-badge-group">
-                                        <a href="#" class="tmp-badge-2">Projects</a>
-                                        <a href="#" class="tmp-badge-2">App</a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -478,18 +474,15 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
                                 <div class="thumbnail">
                                     <figure class="card-image">
                                         <a href="javascript:void(0)">
-                                            <img src="assets/images/portfolio/11.webp" alt="Portfolio-01">
+                                            <img src="assets/images/portfolio/zeeqcore.jpg" style="height: 225px" alt="Portfolio-01">
                                         </a>
                                     </figure>
                                     <a class="tmp-overlay" href="javascript:void(0)"></a>
                                 </div>
                                 <div class="content">
                                     <h5 class="title mb--20">
-                                        <a href="javascript:void(0)">Zeeq Core</a>
+                                        <a href="javascript:void(0)">ZEEQ CORE</a>
                                     </h5>
-                                    <div class="tmp-badge-group">
-                                        <a href="#" class="tmp-badge-2">Design</a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -503,19 +496,15 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
                                 <div class="thumbnail">
                                     <figure class="card-image">
                                         <a href="javascript:void(0)">
-                                            <img src="assets/images/portfolio/12.webp" alt="Portfolio-01">
+                                            <img src="assets/images/portfolio/32.jpeg" style="height: 225px" alt="Portfolio-01">
                                         </a>
                                     </figure>
                                     <a class="tmp-overlay" href="javascript:void(0)"></a>
                                 </div>
                                 <div class="content">
                                     <h5 class="title mb--20">
-                                        <a href="javascript:void(0)">Zeeq Trade</a>
+                                        <a href="javascript:void(0)">ZEEQ TRADE</a>
                                     </h5>
-                                    <div class="tmp-badge-group">
-                                        <a href="javascript:void(0)" class="tmp-badge-2">Art</a>
-                                        <a href="javascript:void(0)" class="tmp-badge-2">App</a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -529,19 +518,15 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
                                 <div class="thumbnail">
                                     <figure class="card-image">
                                         <a href="javascript:void(0)">
-                                            <img src="assets/images/portfolio/13.webp" alt="Portfolio-01">
+                                            <img src="assets/images/portfolio/33.jpeg" style="height: 225px" alt="Portfolio-01">
                                         </a>
                                     </figure>
                                     <a class="tmp-overlay" href="javascript:void(0)"></a>
                                 </div>
                                 <div class="content">
                                     <h5 class="title mb--20">
-                                        <a href="javascript:void(0)">Zeeq Dredix</a>
+                                        <a href="javascript:void(0)">ZEEQ CREDIX</a>
                                     </h5>
-                                    <div class="tmp-badge-group">
-                                        <a href="javascript:void(0)" class="tmp-badge-2">Dev</a>
-                                        <a href="javascript:void(0)" class="tmp-badge-2">App</a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -555,7 +540,7 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
                                 <div class="thumbnail">
                                     <figure class="card-image">
                                         <a href="javascript:void(0)">
-                                            <img src="assets/images/portfolio/14.webp" alt="Portfolio-01">
+                                            <img src="assets/images/portfolio/biz-suite.png" style="height: 225px" alt="Portfolio-01">
                                         </a>
                                         <!-- <div class="video-icon">
                                             <a class="tmp-btn btn-small rounded-player popup-video" href="https://www.youtube.com/watch?v=4jnzf1yj48M">
@@ -567,11 +552,8 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
                                 </div>
                                 <div class="content">
                                     <h5 class="title mb--20">
-                                        <a href="javascript:void(0)">Zeeq BizSuite</a>
+                                        <a href="javascript:void(0)">ZEEQ BIZSUITE</a>
                                     </h5>
-                                    <div class="tmp-badge-group">
-                                        <a href="javascript:void(0)" class="tmp-badge-2">Projects</a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -585,19 +567,15 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
                                 <div class="thumbnail">
                                     <figure class="card-image">
                                         <a href="javascript:void(0)">
-                                            <img src="assets/images/portfolio/15.webp" alt="Portfolio-01">
+                                            <img src="assets/images/portfolio/zeeq-medix.png" style="height: 225px" alt="Portfolio-01">
                                         </a>
                                     </figure>
                                     <a class="tmp-overlay" href="javascript:void(0)"></a>
                                 </div>
                                 <div class="content">
                                     <h5 class="title mb--20">
-                                        <a href="javascript:void(0)">Zeeq Medix</a>
+                                        <a href="javascript:void(0)">ZEEQ MEDIX</a>
                                     </h5>
-                                    <div class="tmp-badge-group">
-                                        <a href="javascript:void(0)" class="tmp-badge-2">Photo</a>
-                                        <a href="javascript:void(0)" class="tmp-badge-2">App</a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -612,19 +590,15 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
                                 <div class="thumbnail">
                                     <figure class="card-image">
                                         <a href="javascript:void(0)">
-                                            <img src="assets/images/portfolio/15.webp" alt="Portfolio-01">
+                                            <img src="assets/images/portfolio/zeeq-ventry.png" style="height: 225px" alt="Portfolio-01">
                                         </a>
                                     </figure>
                                     <a class="tmp-overlay" href="javascript:void(0)"></a>
                                 </div>
                                 <div class="content">
                                     <h5 class="title mb--20">
-                                        <a href="javascript:void(0)">Zeeq Ventory</a>
+                                        <a href="javascript:void(0)">ZEEQ INVENTORY</a>
                                     </h5>
-                                    <div class="tmp-badge-group">
-                                        <a href="javascript:void(0)" class="tmp-badge-2">Photo</a>
-                                        <a href="javascript:void(0)" class="tmp-badge-2">App</a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -638,19 +612,15 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
                                 <div class="thumbnail">
                                     <figure class="card-image">
                                         <a href="javascript:void(0)">
-                                            <img src="assets/images/portfolio/15.webp" alt="Portfolio-01">
+                                            <img src="assets/images/portfolio/crm.jpg" style="height: 225px" alt="Portfolio-01">
                                         </a>
                                     </figure>
                                     <a class="tmp-overlay" href="javascript:void(0)"></a>
                                 </div>
                                 <div class="content">
                                     <h5 class="title mb--20">
-                                        <a href="javascript:void(0)">Zeeq CRM</a>
+                                        <a href="javascript:void(0)">ZEEQ CRM</a>
                                     </h5>
-                                    <div class="tmp-badge-group">
-                                        <a href="javascript:void(0)" class="tmp-badge-2">Photo</a>
-                                        <a href="javascript:void(0)" class="tmp-badge-2">App</a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -664,19 +634,15 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
                                 <div class="thumbnail">
                                     <figure class="card-image">
                                         <a href="javascript:void(0)">
-                                            <img src="assets/images/portfolio/15.webp" alt="Portfolio-01">
+                                            <img src="assets/images/portfolio/zeeq-mobility.jpg" style="height: 225px" alt="Portfolio-01">
                                         </a>
                                     </figure>
                                     <a class="tmp-overlay" href="javascript:void(0)"></a>
                                 </div>
                                 <div class="content">
                                     <h5 class="title mb--20">
-                                        <a href="javascript:void(0)">Zeeq Mobility</a>
+                                        <a href="javascript:void(0)">ZEEQ MOBILITY</a>
                                     </h5>
-                                    <div class="tmp-badge-group">
-                                        <a href="javascript:void(0)" class="tmp-badge-2">Photo</a>
-                                        <a href="javascript:void(0)" class="tmp-badge-2">App</a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -690,19 +656,15 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
                                 <div class="thumbnail">
                                     <figure class="card-image">
                                         <a href="javascript:void(0)">
-                                            <img src="assets/images/portfolio/15.webp" alt="Portfolio-01">
+                                            <img src="assets/images/portfolio/zeeq-commerce.png" style="height: 225px" alt="Portfolio-01">
                                         </a>
                                     </figure>
                                     <a class="tmp-overlay" href="javascript:void(0)"></a>
                                 </div>
                                 <div class="content">
                                     <h5 class="title mb--20">
-                                        <a href="javascript:void(0)">Zeeq Commerce</a>
+                                        <a href="javascript:void(0)">ZEEQ COMMERCE</a>
                                     </h5>
-                                    <div class="tmp-badge-group">
-                                        <a href="javascript:void(0)" class="tmp-badge-2">Photo</a>
-                                        <a href="javascript:void(0)" class="tmp-badge-2">App</a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -716,19 +678,15 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
                                 <div class="thumbnail">
                                     <figure class="card-image">
                                         <a href="javascript:void(0)">
-                                            <img src="assets/images/portfolio/15.webp" alt="Portfolio-01">
+                                            <img src="assets/images/portfolio/zeeq-sight.jpg" style="height: 225px" alt="Portfolio-01">
                                         </a>
                                     </figure>
                                     <a class="tmp-overlay" href="javascript:void(0)"></a>
                                 </div>
                                 <div class="content">
                                     <h5 class="title mb--20">
-                                        <a href="javascript:void(0)">Zeeq Sight BC</a>
+                                        <a href="javascript:void(0)">ZEEQ SIGHT BC</a>
                                     </h5>
-                                    <div class="tmp-badge-group">
-                                        <a href="javascript:void(0)" class="tmp-badge-2">Photo</a>
-                                        <a href="javascript:void(0)" class="tmp-badge-2">App</a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -742,19 +700,15 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
                                 <div class="thumbnail">
                                     <figure class="card-image">
                                         <a href="javascript:void(0)">
-                                            <img src="assets/images/portfolio/15.webp" alt="Portfolio-01">
+                                            <img src="assets/images/portfolio/zeeq-lms.png" style="height: 225px" alt="Portfolio-01">
                                         </a>
                                     </figure>
                                     <a class="tmp-overlay" href="javascript:void(0)"></a>
                                 </div>
                                 <div class="content">
                                     <h5 class="title mb--20">
-                                        <a href="javascript:void(0)">Zeeq LMS</a>
+                                        <a href="javascript:void(0)">ZEEQ LMS</a>
                                     </h5>
-                                    <div class="tmp-badge-group">
-                                        <a href="javascript:void(0)" class="tmp-badge-2">Photo</a>
-                                        <a href="javascript:void(0)" class="tmp-badge-2">App</a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -768,19 +722,15 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
                                 <div class="thumbnail">
                                     <figure class="card-image">
                                         <a href="javascript:void(0)">
-                                            <img src="assets/images/portfolio/15.webp" alt="Portfolio-01">
+                                            <img src="assets/images/portfolio/zeeq-ai.jpg" style="height: 225px" alt="Portfolio-01">
                                         </a>
                                     </figure>
                                     <a class="tmp-overlay" href="javascript:void(0)"></a>
                                 </div>
                                 <div class="content">
                                     <h5 class="title mb--20">
-                                        <a href="javascript:void(0)">Zeeq AI</a>
+                                        <a href="javascript:void(0)">ZEEQ AI</a>
                                     </h5>
-                                    <div class="tmp-badge-group">
-                                        <a href="javascript:void(0)" class="tmp-badge-2">Photo</a>
-                                        <a href="javascript:void(0)" class="tmp-badge-2">App</a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -794,19 +744,59 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
                                 <div class="thumbnail">
                                     <figure class="card-image">
                                         <a href="javascript:void(0)">
-                                            <img src="assets/images/portfolio/15.webp" alt="Portfolio-01">
+                                            <img src="assets/images/portfolio/zeeq-protect.png" style="height: 225px" alt="Portfolio-01">
                                         </a>
                                     </figure>
                                     <a class="tmp-overlay" href="javascript:void(0)"></a>
                                 </div>
                                 <div class="content">
                                     <h5 class="title mb--20">
-                                        <a href="javascript:void(0)">Zeeq Protect</a>
+                                        <a href="javascript:void(0)">ZEEQ PROTECT</a>
                                     </h5>
-                                    <div class="tmp-badge-group">
-                                        <a href="javascript:void(0)" class="tmp-badge-2">Photo</a>
-                                        <a href="javascript:void(0)" class="tmp-badge-2">App</a>
-                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Start Single Portfolio  -->
+
+                    <!-- Start Single Portfolio  -->
+                    <div class="portfolio-4 cat--2 cat--1">
+                        <div class="tmp-card portfolio">
+                            <div class="inner">
+                                <div class="thumbnail">
+                                    <figure class="card-image">
+                                        <a href="javascript:void(0)">
+                                            <img src="assets/images/portfolio/zeeq-mandate.png" style="height: 225px" alt="Portfolio-01">
+                                        </a>
+                                    </figure>
+                                    <a class="tmp-overlay" href="javascript:void(0)"></a>
+                                </div>
+                                <div class="content">
+                                    <h5 class="title mb--20">
+                                        <a href="javascript:void(0)">ZEEQ MANDATE</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Start Single Portfolio  -->
+
+                    <!-- Start Single Portfolio  -->
+                    <div class="portfolio-4 cat--2 cat--1">
+                        <div class="tmp-card portfolio">
+                            <div class="inner">
+                                <div class="thumbnail">
+                                    <figure class="card-image">
+                                        <a href="javascript:void(0)">
+                                            <img src="assets/images/portfolio/zeeqpay.jpg" style="height: 225px" alt="Portfolio-01">
+                                        </a>
+                                    </figure>
+                                    <a class="tmp-overlay" href="javascript:void(0)"></a>
+                                </div>
+                                <div class="content">
+                                    <h5 class="title mb--20">
+                                        <a href="javascript:void(0)">ZEEQPAY</a>
+                                    </h5>
                                 </div>
                             </div>
                         </div>
@@ -842,16 +832,16 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
                 <div class="tmp-card box-card-style-default card-list-view tmponhover">
                     <div class="inner">
                         <div class="thumbnail invers-anime">
-                            <a class="image" href="javascript:;">
-                                <img src="assets/images/blog/blog-01.jpg" alt="Blog Image">
+                            <a class="image" href="blog-details.html">
+                                <img src="assets/images/blog/blog-07.jpeg" alt="Blog Image">
                             </a>
                         </div>
                         <div class="content">
-                            <h4 class="title"><a href="javascript:;">How to Analyze Your Best
+                            <h4 class="title"><a href="blog-details.html">How to Analyze Your Best
                                     Pages for SEO Performance</a></h4>
                             <p class="descriptiion">It is a long established fact that a reader.</p>
                             <div class="read-more-btn">
-                                <a class="btn-read-more" href="javascript:;"><span>Read More</span></a>
+                                <a class="btn-read-more" href="blog-details.html"><span>Read More</span></a>
                             </div>
                         </div>
                     </div>
@@ -861,15 +851,15 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
                 <div class="tmp-card box-card-style-default card-list-view tmponhover">
                     <div class="inner">
                         <div class="thumbnail invers-anime">
-                            <a class="image" href="javascript:;"><img src="assets/images/blog/blog-02.jpg" alt="Blog Image">
+                            <a class="image" href="blog-details.html"><img src="assets/images/blog/blog-08.jpeg" alt="Blog Image">
                             </a>
                         </div>
                         <div class="content">
-                            <h4 class="title"><a href="javascript:;">Corporate Success: How to
+                            <h4 class="title"><a href="blog-details.html">Corporate Success: How to
                                     Achieve Your Goals</a></h4>
                             <p class="descriptiion">Corporate Success established fact that.</p>
                             <div class="read-more-btn">
-                                <a class="btn-read-more" href="javascript:;"><span>Read More</span></a>
+                                <a class="btn-read-more" href="blog-details.html"><span>Read More</span></a>
                             </div>
                         </div>
                     </div>
@@ -878,13 +868,13 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
             <div class="col-lg-6">
                 <div class="tmp-card box-card-style-default card-list-view tmponhover">
                     <div class="inner">
-                        <div class="thumbnail invers-anime"><a class="image" href="javascript:;"><img src="assets/images/blog/blog-03.jpg" alt="Blog Image"></a></div>
+                        <div class="thumbnail invers-anime"><a class="image" href="blog-details.html"><img src="assets/images/blog/blog-09.jpeg" alt="Blog Image"></a></div>
                         <div class="content">
-                            <h4 class="title"><a href="javascript:;">Corporate Leadership: How
+                            <h4 class="title"><a href="blog-details.html">Corporate Leadership: How
                                     to Lead with Confidence</a></h4>
                             <p class="descriptiion">Leadership established fact that a reader.</p>
                             <div class="read-more-btn">
-                                <a class="btn-read-more" href="javascript:;"><span>Read More</span></a>
+                                <a class="btn-read-more" href="blog-details.html"><span>Read More</span></a>
                             </div>
                         </div>
                     </div>
@@ -893,14 +883,14 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
             <div class="col-lg-6">
                 <div class="tmp-card box-card-style-default card-list-view tmponhover">
                     <div class="inner">
-                        <div class="thumbnail invers-anime"><a class="image" href="javascript:;"><img src="assets/images/blog/blog-04.jpg" alt="Blog Image"></a></div>
+                        <div class="thumbnail invers-anime"><a class="image" href="blog-details.html"><img src="assets/images/blog/blog-10.jpeg" alt="Blog Image"></a></div>
                         <div class="content">
-                            <h4 class="title"><a href="javascript:;">Navigating the Corporate
+                            <h4 class="title"><a href="blog-details.html">Navigating the Corporate
                                     Landscape: A Guide</a></h4>
                             <p class="descriptiion">Navigating long established fact that a reader.
                             </p>
                             <div class="read-more-btn">
-                                <a class="btn-read-more" href="javascript:;"><span>Read More</span></a>
+                                <a class="btn-read-more" href="blog-details.html"><span>Read More</span></a>
                             </div>
                         </div>
                     </div>
@@ -912,161 +902,6 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"><
 </div>
 <!-- End Blog List View  -->
 
-<!-- Start Team-Style-Default Area  -->
-<div class="tmp-team-area tmp-section-gap">
-    <div class="container">
-        <div class="row mb--30">
-            <div class="col-lg-12">
-                <div class="tmp-section-title-border text-center">
-                    <div class="pres-line-separator-wrapper text-center mb--10">
-                        <div class="line-separator line-left"></div>
-                        <span class="subtitle">
-                            <span class="number">4</span>
-                        <span class="subtitle-text">Talents</span>
-                        </span>
-                        <div class="line-separator line-right"></div>
-                    </div>
-                    <h2 class="title w-700 tmp-title-split">Some of Our Talents.</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row g-5">
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <div class="tmp-team team-style-default style-two tmponhover">
-                    <div class="inner">
-                        <div class="thumbnail"><img src="assets/images/team/team-04.jpg" alt="Corporate Template"></div>
-                        <div class="content">
-                            <h2 class="title">Monsur Mia</h2>
-                            <h6 class="subtitle">Sr Product Designer</h6>
-                            <span class="team-form">
-                                <i class="feather-map-pin"></i>
-                                <span class="location">CO Miego, AD,USA</span>
-                            </span>
-                            <ul class="social-icon social-default icon-naked mt--5">
-                                <li><a href="https://www.facebook.com/">
-                                        <i class="feather-facebook"></i>
-                                    </a>
-                                </li>
-                                <li><a href="https://www.twitter.com/">
-                                        <i class="feather-twitter"></i>
-                                    </a>
-                                </li>
-                                <li><a href="https://www.instagram.com/">
-                                        <i class="feather-instagram"></i>
-                                    </a>
-                                </li>
-                                <li><a href="https://www.linkedin.com/">
-                                        <i class="feather-linkedin"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <div class="tmp-team team-style-default style-two tmponhover">
-                    <div class="inner">
-                        <div class="thumbnail"><img src="assets/images/team/team-05.jpg" alt="Corporate Template"></div>
-                        <div class="content">
-                            <h2 class="title">Mark Jokar</h2>
-                            <h6 class="subtitle">Sr Product Designer</h6>
-                            <span class="team-form">
-                                <i class="feather-map-pin"></i>
-                                <span class="location">CO Miego, AD,USA</span>
-                            </span>
-                            <ul class="social-icon social-default icon-naked mt--5">
-                                <li><a href="https://www.facebook.com/">
-                                        <i class="feather-facebook"></i>
-                                    </a>
-                                </li>
-                                <li><a href="https://www.twitter.com/">
-                                        <i class="feather-twitter"></i>
-                                    </a>
-                                </li>
-                                <li><a href="https://www.instagram.com/">
-                                        <i class="feather-instagram"></i>
-                                    </a>
-                                </li>
-                                <li><a href="https://www.linkedin.com/">
-                                        <i class="feather-linkedin"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <div class="tmp-team team-style-default style-two tmponhover">
-                    <div class="inner">
-                        <div class="thumbnail"><img src="assets/images/team/team-06.jpg" alt="Corporate Template"></div>
-                        <div class="content">
-                            <h2 class="title">Sr Janen Sara</h2>
-                            <h6 class="subtitle">Sr Product Designer</h6>
-                            <span class="team-form">
-                                <i class="feather-map-pin"></i>
-                                <span class="location">CO Miego, AD,USA</span>
-                            </span>
-                            <ul class="social-icon social-default icon-naked mt--5">
-                                <li><a href="https://www.facebook.com/">
-                                        <i class="feather-facebook"></i>
-                                    </a>
-                                </li>
-                                <li><a href="https://www.twitter.com/">
-                                        <i class="feather-twitter"></i>
-                                    </a>
-                                </li>
-                                <li><a href="https://www.instagram.com/">
-                                        <i class="feather-instagram"></i>
-                                    </a>
-                                </li>
-                                <li><a href="https://www.linkedin.com/">
-                                        <i class="feather-linkedin"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <div class="tmp-team team-style-default style-two tmponhover">
-                    <div class="inner">
-                        <div class="thumbnail"><img src="assets/images/team/team-06.jpg" alt="Corporate Template"></div>
-                        <div class="content">
-                            <h2 class="title">Sr Janen Sara</h2>
-                            <h6 class="subtitle">Sr Product Designer</h6>
-                            <span class="team-form">
-                                <i class="feather-map-pin"></i>
-                                <span class="location">CO Miego, AD,USA</span>
-                            </span>
-                            <ul class="social-icon social-default icon-naked mt--5">
-                                <li><a href="https://www.facebook.com/">
-                                        <i class="feather-facebook"></i>
-                                    </a>
-                                </li>
-                                <li><a href="https://www.twitter.com/">
-                                        <i class="feather-twitter"></i>
-                                    </a>
-                                </li>
-                                <li><a href="https://www.instagram.com/">
-                                        <i class="feather-instagram"></i>
-                                    </a>
-                                </li>
-                                <li><a href="https://www.linkedin.com/">
-                                        <i class="feather-linkedin"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End Team-Style-Default Area  -->
 
 
 <?php include(path("footer.php")) ?>

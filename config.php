@@ -46,6 +46,11 @@ return array(
     'site-title' => 'Zeeq Tech',
     'site-keywords' => 'Zeeq Tech',
     'site-description' => 'Zeeq Tech',
+
+    'enable-captcha' => true,
+    'captcha-type' => 1, // 1 for simple captcha and 2 for google recaptcha
+    // 'recaptcha-secret' => '6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe',
+    'recaptcha-key' => '6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI',
     
   
 

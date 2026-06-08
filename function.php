@@ -166,7 +166,7 @@ function remove_header() {
  * @param mixed $default
  * @return mixed
  */
-function input($name, $default = "", $escape = true) {
+function inputXXXX($name, $default = "", $escape = true) {
     //if (!isset($_POST[$name]) and !isset($_GET[$name])) return $default;
     //for all admin lets escape be off
     //if (segment(0) == 'admincp') $escape = false;
@@ -212,6 +212,21 @@ function input($name, $default = "", $escape = true) {
     return $result;
 }
 
+/**
+ * Safely fetch a request parameter from GET or POST.
+ *
+ * @param string $key The parameter name
+ * @return mixed|null The value if set, otherwise null
+ */
+function input($key, $default = "") {
+    if (isset($_POST[$key])) {
+        return $_POST[$key];
+    }
+    if (isset($_GET[$key])) {
+        return $_GET[$key];
+    }
+    return $default;
+}
 /**
  * Function get user file input
  * @param string $name
@@ -439,6 +454,38 @@ function segment($index, $default = null) {
     return App::getInstance()->segment($index, $default);
 }
 
+/**
+ * Function to get the current page name
+ * @return string|null
+ */
+function getCurrentPage() {
+    $url = getFullUrl();
+    $path = parse_url($url, PHP_URL_PATH);
+
+    // If no path or just root, return "home"
+    if (empty($path) || $path === '/') {
+        return 'home';
+    }
+
+    // Trim trailing slashes
+    $path = trim($path, '/');
+
+    // Break into segments
+    $segments = explode('/', $path);
+
+    $host = $_SERVER['HTTP_HOST'] ?? $_SERVER['SERVER_NAME'];
+
+    // On localhost or local IP, ignore the first segment (project folder)
+    if (strpos($host, 'localhost') !== false || strpos($host, '192.168.') !== false) {
+        if (count($segments) === 1) {
+            return 'home'; // only project folder
+        }
+        return end($segments); // deeper page
+    }
+
+    // On custom domain, first segment is the page
+    return end($segments);
+}
 
 /**
  * Function to get user ip address
@@ -533,14 +580,16 @@ function slugify($text) {
 }
 
 /**
- * Get active menu of the main menu
+ * Function to check if the current page is the menu page
+ * @param string $page
+ * @param string $cssClass
+ * @return string|null
  */
-function current_menu($page = null, $cssClass = "active") {
-    $url = getFullUrl();
-    $page = (!$page OR $page == "index" OR $page == "home") ? config("basename") : $page;
-    if(str_ends_with($url, $page."/")) return $cssClass;
-    return null;
+function current_menu($page = "home", $cssClass = "active") {
+    // Compare against the current page
+    return ($page === getCurrentPage()) ? $cssClass : null;
 }
+
 
 /**
  * This returns only the host name without subdomain

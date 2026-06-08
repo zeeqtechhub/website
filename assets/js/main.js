@@ -787,19 +787,19 @@
               _self.closest('div').find('button[type="submit"]').attr('disabled', 'disabled');
               var data = $(this).serialize();
               $.ajax({
-                url: 'mail/',
+                url: 'mail.php',
                 type: "post",
                 dataType: 'json',
                 data: data,
                 success: function (data) {
                   _self.closest('div').find('button[type="submit"]').removeAttr('disabled');
-                  if (data.code == false) {
+                  if (data.type === 'error') {
                     _self.closest('div').find('[name="' + data.field + '"]');
-                    _self.find('.tmp-btn').after('<div class="error-msg"><p>*' + data.err + '</p></div>');
+                    _self.find('.tmp-btn').after('<div class="error-msg"><p>*' + data.message + '</p></div>');
                   } else {
                     $('.error-msg').hide();
                     $('.form-group').removeClass('focused');
-                    _self.find('.tmp-btn').after('<div class="success-msg"><p>' + data.success + '</p></div>');
+                    _self.find('.tmp-btn').after('<div class="success-msg"><p>' + data.message + '</p></div>');
                     _self.closest('div').find('input,textarea').val('');
 
                     setTimeout(function () {
@@ -1468,4 +1468,45 @@
 
 })(jQuery, window)
 
+$('#contact-form').on('submit', function (e) {
+  
+  e.preventDefault();
+  var _self = $(this);
+  var __selector = _self.closest('input,textarea');
+  _self.closest('div').find('input,textarea').removeAttr('style');
+  _self.find('.error-msg').remove();
+  
+  var data = $(this).serialize();
+  $.ajax({
+    url: 'mail.php',
+    type: "post",
+    dataType: 'json',
+    data: data,
+    beforeSend: function () {
+      _self.find('button').attr("data-send", "true");
+      _self.find('span').hide();
+      _self.find('button').attr('disabled', 'disabled');
+    },
+    complete: function () {
+      _self.find('button').attr("data-send", "false");
+      _self.find('span').show();
+      _self.find('button').removeAttr('disabled');
+    },
+    success: function (data) {
+      _self.closest('div').find('button[type="submit"]').removeAttr('disabled');
+      if (data.type === 'error') {
+        _self.closest('div').find('[name="' + data.field + '"]');
+        _self.find('.tmp-btn').after('<div class="error-msg"><p>*' + data.message + '</p></div>');
+      } else {
+        $('.error-msg').hide();
+        $('.form-group').removeClass('focused');
+        _self.find('button').after('<div class="success-msg"><p>' + data.message + '</p></div>');
+        _self.closest('div').find('input,textarea').val('');
 
+        setTimeout(function () {
+          $('.success-msg').fadeOut('slow');
+        }, 3000);
+      }
+    }
+  });
+});

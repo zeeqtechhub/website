@@ -1,7 +1,7 @@
 
     <!-- Start Footer Area  -->
     <footer class="tmp-footer footer-style-default variation-two position-relative">
-        <div class="footer-top pt--50">
+        <div class="footer-top pt--50 pb--0">
             
             <div class="container">
                 <div class="row">
@@ -12,7 +12,7 @@
                                     <img src="<?= img("assets/images/logo/logo.png") ?>" alt="Corporate Logo">
                                 </a>
                             </div>
-                            <p class="subtitle mt--10">ZeeqTech is a technology engineering company building intelligent financial and enterprise systems for the modern global economy.</p>
+                            <p class="subtitle mt--10">ZeeqTech builds intelligent financial and enterprise systems for the global economy.</p>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-6 col-sm-6 col-12">
@@ -47,15 +47,15 @@
                             <div class="inner">
                                 <h6 class="subtitle">10000+ trusted clients are subscribe Us around the world</h6>
                                 <ul class="social-icon social-default justify-content-start">
-                                    <li><a href="https://www.facebook.com/ccerrandpay">
+                                    <li><a href="https://www.facebook.com/share/1BpfZX46fg/">
                                             <i class="feather-facebook"></i>
                                         </a>
                                     </li>
-                                    <li><a href="https://x.com/errandpay0/">
+                                    <li><a href="https://x.com/techzeeq6534">
                                             <i class="feather-twitter"></i>
                                         </a>
                                     </li>
-                                    <li><a href="https://www.linkedin.com/company/errandpay/">
+                                    <li><a href="https://www.linkedin.com/company/zeeq-tech/">
                                             <i class="feather-linkedin"></i>
                                         </a>
                                     </li>
